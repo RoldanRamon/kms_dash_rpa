@@ -1,0 +1,69 @@
+{
+    "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.55\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"visible\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+    "layoutOptimization": 0,
+    "resourcePackages": [
+        {
+            "resourcePackage": {
+                "disabled": false,
+                "items": [
+                    {
+                        "name": "CY24SU06",
+                        "path": "BaseThemes/CY24SU06.json",
+                        "type": 202
+                    }
+                ],
+                "name": "SharedResources",
+                "type": 2
+            }
+        }
+    ],
+    "sections": [
+        {
+            "config": "{}",
+            "displayName": "Página 12",
+            "displayOption": 1,
+            "filters": "[]",
+            "height": 720.0,
+            "name": "7f0379f6f0c809107e6a",
+            "visualContainers": [
+                {
+                    "config": "{\"name\": \"4a3edd34ef8da59bba7e\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 834.6921278254091, \"y\": 44.18719211822659, \"width\": 300, \"height\": 300, \"z\": 1000}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Values\": [{\"queryRef\": \"fLancamentoQuirius.Ordem\", \"tooltip\": \"caraca\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fLancamentoQuirius\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Ordem\"}, \"Name\": \"fLancamentoQuirius.Ordem\", \"NativeReferenceName\": \"Ordem\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Ordem\"}}}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"showTooltipButton\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}}}], \"visualHeaderTooltip\": [{\"properties\": {\"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Ponta cana'\"}}}}}], \"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Grafico 1'\"}}}}}]}}, \"vcObjects\": {\"visualHeaderTooltip\": [{\"properties\": {\"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Brasil'\"}}}}}]}}",
+                    "filters": "[]",
+                    "height": 300.0,
+                    "width": 300.0,
+                    "x": 834.69,
+                    "y": 44.19,
+                    "z": 1000.0
+                },
+                {
+                    "config": "{\"name\": \"5ed653c0d03b0b3c174b\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 834.6921278254091, \"y\": 44.18719211822659, \"width\": 300, \"height\": 300, \"z\": 1000}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Values\": [{\"queryRef\": \"fLancamentoQuirius.Ordem\", \"tooltip\": \"Ordem do documento.\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fLancamentoQuirius\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Ordem\"}, \"Name\": \"fLancamentoQuirius.Ordem\", \"NativeReferenceName\": \"Ordem\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Ordem\"}}}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"showTooltipButton\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}}}], \"visualHeaderTooltip\": [{\"properties\": {\"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Uruguay'\"}}}}}], \"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Grafico 2'\"}}}}}]}}}",
+                    "filters": "[]",
+                    "height": 300.0,
+                    "width": 300.0,
+                    "x": 834.69,
+                    "y": 44.19,
+                    "z": 1000.0
+                },
+                {
+                    "config": "{\"name\": \"ca3092de7e736f219c15\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 861.8511796733212, \"y\": 420.47186932849365, \"z\": 2000, \"width\": 299.6733212341198, \"height\": 299.6733212341198}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.Ano\", \"active\": true, \"tooltip\": \"Ano em que o documento foi emitido.\"}, {\"queryRef\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.Trimestre\", \"tooltip\": \"Trimestre em que o documento foi emitido.\"}, {\"queryRef\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.M\\u00eas\", \"tooltip\": \"M\\u00eas em que o documento foi emitido.\"}, {\"queryRef\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.Dia\", \"tooltip\": \"Dia em que o documento foi emitido.\"}], \"Y\": [{\"queryRef\": \"_Medidas.Qtde Ordens\", \"tooltip\": \"Quantidade total de ordens lan\\u00e7adas no Quirius.\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fLancamentoQuirius\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"HierarchyLevel\": {\"Expression\": {\"Hierarchy\": {\"Expression\": {\"PropertyVariationSource\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Name\": \"Variation\", \"Property\": \"DATA DE EMISS\\u00c3O\"}}, \"Hierarchy\": \"Hierarquia de datas\"}}, \"Level\": \"Ano\"}, \"Name\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.Ano\", \"NativeReferenceName\": \"DATA DE EMISS\\u00c3O Ano\"}, {\"HierarchyLevel\": {\"Expression\": {\"Hierarchy\": {\"Expression\": {\"PropertyVariationSource\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Name\": \"Variation\", \"Property\": \"DATA DE EMISS\\u00c3O\"}}, \"Hierarchy\": \"Hierarquia de datas\"}}, \"Level\": \"Trimestre\"}, \"Name\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.Trimestre\", \"NativeReferenceName\": \"DATA DE EMISS\\u00c3O Trimestre\"}, {\"HierarchyLevel\": {\"Expression\": {\"Hierarchy\": {\"Expression\": {\"PropertyVariationSource\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Name\": \"Variation\", \"Property\": \"DATA DE EMISS\\u00c3O\"}}, \"Hierarchy\": \"Hierarquia de datas\"}}, \"Level\": \"M\\u00eas\"}, \"Name\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.M\\u00eas\", \"NativeReferenceName\": \"DATA DE EMISS\\u00c3O M\\u00eas\"}, {\"HierarchyLevel\": {\"Expression\": {\"Hierarchy\": {\"Expression\": {\"PropertyVariationSource\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Name\": \"Variation\", \"Property\": \"DATA DE EMISS\\u00c3O\"}}, \"Hierarchy\": \"Hierarquia de datas\"}}, \"Level\": \"Dia\"}, \"Name\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.Dia\", \"NativeReferenceName\": \"DATA DE EMISS\\u00c3O Dia\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Qtde Ordens\"}, \"Name\": \"_Medidas.Qtde Ordens\", \"NativeReferenceName\": \"Qtde Ordens\"}]}, \"autoSelectVisualType\": true, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"showTooltipButton\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}}}], \"visualHeaderTooltip\": [{\"properties\": {\"text\": {\"expr\": {\"Literal\": {\"Value\": \"'testando'\"}}}}}], \"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Grafico 3'\"}}}}}]}}}",
+                    "filters": "[]",
+                    "height": 299.67,
+                    "width": 299.67,
+                    "x": 861.85,
+                    "y": 420.47,
+                    "z": 2000.0
+                },
+                {
+                    "config": "{\"name\": \"ca3092de7e736f219c16\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 195.07389162561577, \"y\": 393.69458128078816, \"z\": 3000, \"width\": 299.70443349753697, \"height\": 299.70443349753697}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.Ano\", \"active\": true, \"tooltip\": \"Ano em que o documento foi emitido.\"}, {\"queryRef\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.Trimestre\", \"tooltip\": \"Trimestre em que o documento foi emitido.\"}, {\"queryRef\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.M\\u00eas\", \"tooltip\": \"M\\u00eas em que o documento foi emitido.\"}, {\"queryRef\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.Dia\", \"tooltip\": \"Dia em que o documento foi emitido.\"}], \"Y\": [{\"queryRef\": \"_Medidas.Qtde Ordens\", \"tooltip\": \"Quantidade total de ordens lan\\u00e7adas no Quirius.\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fLancamentoQuirius\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"HierarchyLevel\": {\"Expression\": {\"Hierarchy\": {\"Expression\": {\"PropertyVariationSource\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Name\": \"Variation\", \"Property\": \"DATA DE EMISS\\u00c3O\"}}, \"Hierarchy\": \"Hierarquia de datas\"}}, \"Level\": \"Ano\"}, \"Name\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.Ano\", \"NativeReferenceName\": \"DATA DE EMISS\\u00c3O Ano\"}, {\"HierarchyLevel\": {\"Expression\": {\"Hierarchy\": {\"Expression\": {\"PropertyVariationSource\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Name\": \"Variation\", \"Property\": \"DATA DE EMISS\\u00c3O\"}}, \"Hierarchy\": \"Hierarquia de datas\"}}, \"Level\": \"Trimestre\"}, \"Name\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.Trimestre\", \"NativeReferenceName\": \"DATA DE EMISS\\u00c3O Trimestre\"}, {\"HierarchyLevel\": {\"Expression\": {\"Hierarchy\": {\"Expression\": {\"PropertyVariationSource\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Name\": \"Variation\", \"Property\": \"DATA DE EMISS\\u00c3O\"}}, \"Hierarchy\": \"Hierarquia de datas\"}}, \"Level\": \"M\\u00eas\"}, \"Name\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.M\\u00eas\", \"NativeReferenceName\": \"DATA DE EMISS\\u00c3O M\\u00eas\"}, {\"HierarchyLevel\": {\"Expression\": {\"Hierarchy\": {\"Expression\": {\"PropertyVariationSource\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Name\": \"Variation\", \"Property\": \"DATA DE EMISS\\u00c3O\"}}, \"Hierarchy\": \"Hierarquia de datas\"}}, \"Level\": \"Dia\"}, \"Name\": \"fLancamentoQuirius.DATA DE EMISS\\u00c3O.Variation.Hierarquia de datas.Dia\", \"NativeReferenceName\": \"DATA DE EMISS\\u00c3O Dia\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Qtde Ordens\"}, \"Name\": \"_Medidas.Qtde Ordens\", \"NativeReferenceName\": \"Qtde Ordens\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"visualHeader\": [{\"properties\": {\"showTooltipButton\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Grafico 4'\"}}}}}]}}}",
+                    "filters": "[]",
+                    "height": 299.7,
+                    "width": 299.7,
+                    "x": 195.07,
+                    "y": 393.69,
+                    "z": 3000.0
+                }
+            ],
+            "width": 1280.0
+        }
+    ]
+}

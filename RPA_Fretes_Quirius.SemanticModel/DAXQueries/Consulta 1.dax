@@ -1,0 +1,27 @@
+EVALUATE
+VAR _dataMinima = MIN(fLancamentoQuirius[Lançado Quirius])
+VAR _dataMaxima = MAX(fLancamentoQuirius[Lançado Quirius])
+RETURN
+ADDCOLUMNS(
+    CALENDAR(
+        DATE(YEAR(_dataMinima), MONTH(_dataMinima), DAY(_dataMinima)),
+        DATE(YEAR(_dataMaxima), MONTH(_dataMaxima), DAY(_dataMaxima))
+    ),
+    "Ano", YEAR([Date]),
+    "Mes", MONTH([Date]),
+    "Mes e Ano", FORMAT([Date], "MMM") & "/" & YEAR([Date]),
+    "Dia", DAY([Date]),
+    "Dia Semana & Dia Mês", 
+        VAR VdiaMes = DAY([Date])
+        VAR VdiaSemana = SWITCH(
+            WEEKDAY([Date]),
+            1, "Dom",
+            2, "Seg",
+            3, "Ter",
+            4, "Qua",
+            5, "Qui",
+            6, "Sex",
+            7, "Sáb"
+        )
+        RETURN VdiaSemana & "-" & VdiaMes
+)

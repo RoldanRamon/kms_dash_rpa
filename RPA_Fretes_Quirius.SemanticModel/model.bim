@@ -1,0 +1,3966 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"fLancamentoQuirius\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Arquivo de Amostra\",\"Transformar Arquivo\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Arquivo de Amostra (2)\",\"Transformar Arquivo (2)\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.131.1203.0 (24.07)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\",\"DaxQueryView_Desktop\"]"
+      },
+      {
+        "name": "__TEdtr",
+        "value": "1"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "d_calendario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "d calendario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dCalendario": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "d_calendario.ano": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "Ano"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ano": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "d_calendario.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "d_calendario.date.variation.hierarquia_de_data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "Hierarchy": "Hierarquia de datas",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hierarquia de data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "hierarquia de information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "hierarquia de figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "hierarquia de record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "d_calendario.date.variation.hierarquia_de_data.ano": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Ano",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "d_calendario.date.variation.hierarquia_de_data.dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Dia",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "d_calendario.date.variation.hierarquia_de_data.mê": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Mês",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "d_calendario.date.variation.hierarquia_de_data.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Trimestre",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "d_calendario.dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "Dia"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "d_calendario.dia_da_semana": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "Dia da Semana"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia da semana": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Dia": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "d_calendario.me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "Mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "me": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "d_calendario.nª_dia_da_semana": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "Nª Dia da Semana"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nª dia da semana": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "d_calendario.semana": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dCalendario",
+                    "ConceptualProperty": "Semana"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "semana": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_medida": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.crescimento_dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Crescimento Dia"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% crescimento dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage crescimento dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "pct crescimento dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.crescimento_hora": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Crescimento Hora"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% crescimento hora": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage crescimento hora": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "pct crescimento hora": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.crescimento_mes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Crescimento Mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% crescimento mes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage crescimento me": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "pct crescimento me": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.crescimento_semana": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Crescimento Semana"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% crescimento semana": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage crescimento semana": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "pct crescimento semana": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.data_e_hora_do_último_processo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "Último Processo"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data e hora do último processo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "Data e Hora do Último": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.qtde_notas": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "Qtde Notas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtde notas": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.qtde_notas1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Qtde Notas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% qtde notas": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage qtde nota": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "pct qtde nota": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "%": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.r_economia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "R$ Est. Economia"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "r$ economia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "r dollar economia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.v_Crescimento_Dia__Formatado__crescimento_dia_formatado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "_Crescimento (Formatado)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_crescimento (formatado)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_crescimento": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.v_Crescimento_dia_Anterior__cores__crescimento_dia_anterior_cores": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "_Crescimento (Cores)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_crescimento (cores)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_crescimento": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "value": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "assessment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "worth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "cost": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "charge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "rate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "importance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "significance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "usefulness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "consequence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "d_calendario_date_has_variation_hierarquia_de_data": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario.date"
+                      }
+                    },
+                    "ID": "dates_have_hierarquia_de_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario.date": {
+                    "Target": {
+                      "Entity": "d_calendario.date"
+                    }
+                  },
+                  "d_calendario.date.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_date_variation_hierarquia_de_data_ano_has_d_calendario_date_variation_hierarquia_de_data_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.ano"
+                      }
+                    },
+                    "ID": "anos_have_trimestres3",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.ano"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_anos3",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "trimestres_are_in_anos",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.ano"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario.date.variation.hierarquia_de_data.ano": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data.ano"
+                    }
+                  },
+                  "d_calendario.date.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_date_variation_hierarquia_de_data_has_ano": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.ano"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_anos3",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario.date.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data"
+                    }
+                  },
+                  "d_calendario.date.variation.hierarquia_de_data.ano": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data.ano"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_date_variation_hierarquia_de_data_has_dia": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.dia"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_dias3",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario.date.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data"
+                    }
+                  },
+                  "d_calendario.date.variation.hierarquia_de_data.dia": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data.dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_date_variation_hierarquia_de_data_has_mê": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_mê3",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario.date.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data"
+                    }
+                  },
+                  "d_calendario.date.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_date_variation_hierarquia_de_data_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_trimestres3",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario.date.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data"
+                    }
+                  },
+                  "d_calendario.date.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_date_variation_hierarquia_de_data_mê_has_d_calendario_date_variation_hierarquia_de_data_dia": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.dia"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "ID": "mê_have_dias3",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.dia"
+                      }
+                    },
+                    "ID": "dias_have_mê3",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "dias_are_in_mê",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.dia"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario.date.variation.hierarquia_de_data.dia": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data.dia"
+                    }
+                  },
+                  "d_calendario.date.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_date_variation_hierarquia_de_data_trimestre_has_d_calendario_date_variation_hierarquia_de_data_mê": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_mê3",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "ID": "mê_have_trimestres3",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "mê_are_in_trimestres",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario.date.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data.mê"
+                    }
+                  },
+                  "d_calendario.date.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "d_calendario.date.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_has_ano": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.ano"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_anos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario": {
+                    "Target": {
+                      "Entity": "d_calendario"
+                    }
+                  },
+                  "d_calendario.ano": {
+                    "Target": {
+                      "Entity": "d_calendario.ano"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.date"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario": {
+                    "Target": {
+                      "Entity": "d_calendario"
+                    }
+                  },
+                  "d_calendario.date": {
+                    "Target": {
+                      "Entity": "d_calendario.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_has_dia": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.dia"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_dias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario": {
+                    "Target": {
+                      "Entity": "d_calendario"
+                    }
+                  },
+                  "d_calendario.dia": {
+                    "Target": {
+                      "Entity": "d_calendario.dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_has_dia_da_semana": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.dia_da_semana"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_dia_da_semanas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario": {
+                    "Target": {
+                      "Entity": "d_calendario"
+                    }
+                  },
+                  "d_calendario.dia_da_semana": {
+                    "Target": {
+                      "Entity": "d_calendario.dia_da_semana"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_has_me": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.me"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario": {
+                    "Target": {
+                      "Entity": "d_calendario"
+                    }
+                  },
+                  "d_calendario.me": {
+                    "Target": {
+                      "Entity": "d_calendario.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_has_nª_dia_da_semana": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.nª_dia_da_semana"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_nª_dia_da_semanas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario": {
+                    "Target": {
+                      "Entity": "d_calendario"
+                    }
+                  },
+                  "d_calendario.nª_dia_da_semana": {
+                    "Target": {
+                      "Entity": "d_calendario.nª_dia_da_semana"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_has_semana": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario.semana"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_semanas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario": {
+                    "Target": {
+                      "Entity": "d_calendario"
+                    }
+                  },
+                  "d_calendario.semana": {
+                    "Target": {
+                      "Entity": "d_calendario.semana"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Medidas_medida_has_crescimento_dia": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.crescimento_dia"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_dia",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.crescimento_dia": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.crescimento_dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Medidas_medida_has_crescimento_hora": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.crescimento_hora"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_hora",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.crescimento_hora": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.crescimento_hora"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Medidas_medida_has_crescimento_mes": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.crescimento_mes"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_mes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.crescimento_mes": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.crescimento_mes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Medidas_medida_has_crescimento_semana": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.crescimento_semana"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_semana",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.crescimento_semana": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.crescimento_semana"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Medidas_medida_has_v_Crescimento_Dia__Formatado__crescimento_dia_formatado": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.v_Crescimento_Dia__Formatado__crescimento_dia_formatado"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_formatado",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.v_Crescimento_Dia__Formatado__crescimento_dia_formatado": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.v_Crescimento_Dia__Formatado__crescimento_dia_formatado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Medidas_medida_has_v_Crescimento_dia_Anterior__cores__crescimento_dia_anterior_cores": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.v_Crescimento_dia_Anterior__cores__crescimento_dia_anterior_cores"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_cores",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.v_Crescimento_dia_Anterior__cores__crescimento_dia_anterior_cores": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.v_Crescimento_dia_Anterior__cores__crescimento_dia_anterior_cores"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "Parâmetro1",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": "#\"Arquivo de Amostra\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Arquivo de Amostra\", Type=\"Binary\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "37b1c391-f562-4d3f-bd39-78e523cd0356",
+        "queryGroup": "Transformar Arquivo de Bases\\Consultas Auxiliares"
+      },
+      {
+        "name": "Transformar o Arquivo de Exemplo",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = Excel.Workbook(Parâmetro1, null, true),",
+          "    Planilha1_Sheet = Fonte{[Item=\"Planilha1\",Kind=\"Sheet\"]}[Data],",
+          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Planilha1_Sheet, [PromoteAllScalars=true])",
+          "in",
+          "    #\"Cabeçalhos Promovidos\""
+        ],
+        "kind": "m",
+        "lineageTag": "532d2f85-28e3-45ef-a36e-ed0c99df67f0",
+        "queryGroup": "Transformar Arquivo de Bases"
+      },
+      {
+        "name": "Arquivo de Amostra",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = Folder.Files(\"\\\\forest.local\\dfs\\Brazil\\Trabalho\\Fin\\Fiscal\\ARQUIVO FRETE RPA\\Bases\"),",
+          "    Navegação1 = Fonte{0}[Content]",
+          "in",
+          "    Navegação1"
+        ],
+        "kind": "m",
+        "lineageTag": "7ccaa5e0-8fe0-4e3d-9e03-65456cc24101",
+        "queryGroup": "Transformar Arquivo de Bases\\Consultas Auxiliares"
+      },
+      {
+        "name": "Transformar Arquivo",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = (Parâmetro1 as binary) => let",
+          "    Fonte = Excel.Workbook(Parâmetro1, null, true),",
+          "    Planilha1_Sheet = Fonte{[Item=\"Planilha1\",Kind=\"Sheet\"]}[Data],",
+          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Planilha1_Sheet, [PromoteAllScalars=true])",
+          "in",
+          "    #\"Cabeçalhos Promovidos\"",
+          "in",
+          "    Fonte"
+        ],
+        "kind": "m",
+        "lineageTag": "330d16cf-3c13-48d8-a0e9-d29417ad3c57",
+        "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transformar o Arquivo de Exemplo\"\"}\" ]",
+        "queryGroup": "Transformar Arquivo de Bases\\Consultas Auxiliares"
+      },
+      {
+        "name": "Parâmetro2",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": "#\"Arquivo de Amostra (2)\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Arquivo de Amostra (2)\", Type=\"Binary\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "15a7e7b7-6585-43d5-bcc6-6d763ca31e93",
+        "queryGroup": "Transformar Arquivo de Bases (2)\\Consultas Auxiliares"
+      },
+      {
+        "name": "Transformar o Arquivo de Exemplo (2)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = Excel.Workbook(Parâmetro2, null, true),",
+          "    Sheet1_Sheet = Fonte{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],",
+          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true])",
+          "in",
+          "    #\"Cabeçalhos Promovidos\""
+        ],
+        "kind": "m",
+        "lineageTag": "689e3662-73fc-4825-af8a-33ba87d4fcd3",
+        "queryGroup": "Transformar Arquivo de Bases (2)"
+      },
+      {
+        "name": "Arquivo de Amostra (2)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = Folder.Files(\"\\\\forest.local\\dfs\\Brazil\\Trabalho\\Fin\\Fiscal\\ARQUIVO FRETE RPA\\Bases\"),",
+          "    #\"Arquivos Ocultos Filtrados1\" = Table.SelectRows(Fonte, each [Attributes]?[Hidden]? <> true),",
+          "    #\"Invocar Função Personalizada1\" = Table.AddColumn(#\"Arquivos Ocultos Filtrados1\", \"Transformar Arquivo\", each #\"Transformar Arquivo\"([Content])),",
+          "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Invocar Função Personalizada1\", {\"Name\", \"Nome da Origem\"}),",
+          "    Navegação1 = #\"Colunas Renomeadas1\"{0}[Content]",
+          "in",
+          "    Navegação1"
+        ],
+        "kind": "m",
+        "lineageTag": "0b5129fe-a06e-4780-bb8a-af194429a1a9",
+        "queryGroup": "Transformar Arquivo de Bases (2)\\Consultas Auxiliares"
+      },
+      {
+        "name": "Transformar Arquivo (2)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = (Parâmetro2 as binary) => let",
+          "    Fonte = Excel.Workbook(Parâmetro2, null, true),",
+          "    Sheet1_Sheet = Fonte{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],",
+          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true])",
+          "in",
+          "    #\"Cabeçalhos Promovidos\"",
+          "in",
+          "    Fonte"
+        ],
+        "kind": "m",
+        "lineageTag": "ac60315d-799e-49c7-96b9-ed9158f710e8",
+        "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transformar o Arquivo de Exemplo (2)\"\"}\" ]",
+        "queryGroup": "Transformar Arquivo de Bases (2)\\Consultas Auxiliares"
+      }
+    ],
+    "queryGroups": [
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Transformar Arquivo de Bases"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Transformar Arquivo de Bases\\Consultas Auxiliares"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "2"
+          }
+        ],
+        "folder": "Transformar Arquivo de Bases (2)"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Transformar Arquivo de Bases (2)\\Consultas Auxiliares"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "26414c7e-8921-4089-b5c5-853b11d77641",
+        "fromColumn": "Lançado Quirius",
+        "fromTable": "fLancamentoQuirius",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_2444c19a-b7a0-4d4c-8a2b-eebc82084acc"
+      },
+      {
+        "name": "09ca2ca1-ab92-41fd-a6d0-c5b743d6e0da",
+        "fromColumn": "DATA VENCIMENTO",
+        "fromTable": "fLancamentoQuirius",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_b59cd526-80d8-44a4-b48a-106f5a653c58"
+      },
+      {
+        "name": "e7b41c43-e643-4f8f-8821-0b3aa6ed52c8",
+        "fromColumn": "DATA DE EMISSÃO",
+        "fromTable": "fLancamentoQuirius",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_b9682a4d-3173-4798-b831-fc92817d4e04"
+      },
+      {
+        "name": "d208b67b-8305-45c3-b305-ab201ced58c9",
+        "fromColumn": "Date",
+        "fromTable": "dCalendario",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_9e933f3c-1719-47c5-a911-7812a625a499"
+      },
+      {
+        "name": "705070dc-0232-5634-103b-ae6f3ec16f1a",
+        "fromColumn": "Data",
+        "fromTable": "fLancamentoQuirius",
+        "toColumn": "Date",
+        "toTable": "dCalendario"
+      }
+    ],
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "DateTableTemplate_aa80d22a-e63b-46d3-9983-9079862d7056",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "91c7a302-aa7a-4dbe-aa05-7eec9ce01451",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "1cbafbb6-7fe8-42c5-9bcc-d4e276b066e4",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "0ee48834-e183-449c-8bb0-e89d4df98448",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "227f0034-685b-4a7a-ac20-c359fe177c46",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "49b86044-39b4-4900-96cb-2491afd33d78",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "6976f4fe-05a3-4cc9-a90d-94e773f653e7",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "8a1343fb-47d9-4010-b467-bcf6f73395f6",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "5f400369-aeb6-4149-979c-65e9b6ecf7de",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "535717f4-00d5-44e0-8440-3185d71a7787",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "c0271973-b63f-4459-9908-a004f17d34a3",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "081d4344-5151-4196-909b-7ab838228b5e",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "86dd8ce4-5bc6-42d5-8fc6-a95cc32c3ab8"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "7e302f1a-87e1-476a-baee-8908f533fd92",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_aa80d22a-e63b-46d3-9983-9079862d7056",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "_Medidas",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "b082479044cb45ac997df4e08485d02e"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "18c4ffdf-07d4-4510-9c0a-9dd0af716f00",
+            "sourceColumn": "[Value]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "2c84c17f-0680-452f-9dc8-9ec63ff9459a",
+        "measures": [
+          {
+            "name": "Qtde Notas",
+            "description": "COUNTROWS ( fLancamentoQuirius )",
+            "expression": "COUNTROWS ( fLancamentoQuirius )",
+            "formatString": "#,#0",
+            "lineageTag": "ca472473-88c6-46a5-8539-22e4fde82c15"
+          },
+          {
+            "name": "% Crescimento Dia",
+            "description": [
+              "VAR UltimaData =",
+              "    CALCULATE (",
+              "        MAX ( dCalendario[Date] ),",
+              "        FILTER (",
+              "            ALL ( dCalendario ),",
+              "            dCalendario[Date] < MAX ( dCalendario[Date] )",
+              "                && NOT ( ISBLANK ( [Qtde Notas] ) )",
+              "        )",
+              "    )",
+              "VAR QtdeUltimaData =",
+              "    CALCULATE ( [Qtde Notas], dCalendario[Date] = UltimaData )",
+              "VAR QtdeAtual = [Qtde Notas]",
+              "RETURN",
+              "    IF (",
+              "        NOT ISBLANK ( QtdeUltimaData ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimaData, QtdeUltimaData, 0 ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "expression": [
+              "VAR UltimaData =",
+              "    CALCULATE (",
+              "        MAX ( dCalendario[Date] ),",
+              "        FILTER (",
+              "            ALL ( dCalendario ),",
+              "            dCalendario[Date] < MAX ( dCalendario[Date] )",
+              "                && NOT ( ISBLANK ( [Qtde Notas] ) )",
+              "        )",
+              "    )",
+              "VAR QtdeUltimaData =",
+              "    CALCULATE ( [Qtde Notas], dCalendario[Date] = UltimaData )",
+              "VAR QtdeAtual = [Qtde Notas]",
+              "RETURN",
+              "    IF (",
+              "        NOT ISBLANK ( QtdeUltimaData ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimaData, QtdeUltimaData, 0 ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "d88f893c-4178-4726-85de-a63ed822eeda"
+          },
+          {
+            "name": "_Crescimento (Formatado)",
+            "description": [
+              "SWITCH (",
+              "    TRUE (),",
+              "    ISINSCOPE ( fLancamentoQuirius[Hora] ),",
+              "        IF (",
+              "            [% Crescimento Hora] > 0,",
+              "            FORMAT ( [% Crescimento Hora], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Hora], \"∇ 0%\" )",
+              "        ),",
+              "    ISINSCOPE ( dCalendario[Dia] ),",
+              "        IF (",
+              "            [% Crescimento Dia] > 0,",
+              "            FORMAT ( [% Crescimento Dia], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Dia], \"∇ 0%\" )",
+              "        ),",
+              "    ISINSCOPE ( dCalendario[Semana] ),",
+              "        IF (",
+              "            [% Crescimento Semana] > 0,",
+              "            FORMAT ( [% Crescimento Semana], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Semana], \"∇ 0%\" )",
+              "        ),",
+              "    ISINSCOPE ( dCalendario[Mes] ),",
+              "        IF (",
+              "            [% Crescimento Mes] > 0,",
+              "            FORMAT ( [% Crescimento Mes], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Mes], \"∇ 0%\" )",
+              "        ),",
+              "    BLANK ()",
+              ")"
+            ],
+            "expression": [
+              "SWITCH (",
+              "    TRUE (),",
+              "    ISINSCOPE ( fLancamentoQuirius[Hora] ),",
+              "        IF (",
+              "            [% Crescimento Hora] > 0,",
+              "            FORMAT ( [% Crescimento Hora], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Hora], \"∇ 0%\" )",
+              "        ),",
+              "    ISINSCOPE ( dCalendario[Dia] ),",
+              "        IF (",
+              "            [% Crescimento Dia] > 0,",
+              "            FORMAT ( [% Crescimento Dia], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Dia], \"∇ 0%\" )",
+              "        ),",
+              "    ISINSCOPE ( dCalendario[Semana] ),",
+              "        IF (",
+              "            [% Crescimento Semana] > 0,",
+              "            FORMAT ( [% Crescimento Semana], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Semana], \"∇ 0%\" )",
+              "        ),",
+              "    ISINSCOPE ( dCalendario[Mes] ),",
+              "        IF (",
+              "            [% Crescimento Mes] > 0,",
+              "            FORMAT ( [% Crescimento Mes], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Mes], \"∇ 0%\" )",
+              "        ),",
+              "    BLANK ()",
+              ")"
+            ],
+            "lineageTag": "dc854c0d-34f1-458f-92f2-1e8de3e9b5b6"
+          },
+          {
+            "name": "_Crescimento (Cores)",
+            "description": [
+              "SWITCH (",
+              "    TRUE (),",
+              "    ISINSCOPE ( fLancamentoQuirius[Hora] ), IF ( [% Crescimento Hora] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    ISINSCOPE ( dCalendario[Dia] ), IF ( [% Crescimento Dia] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    ISINSCOPE ( dCalendario[Semana] ), IF ( [% Crescimento Semana] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    ISINSCOPE ( dCalendario[Mes] ), IF ( [% Crescimento Mes] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    BLANK ()",
+              ")"
+            ],
+            "detailRowsDefinition": {
+              "expression": "x1"
+            },
+            "expression": [
+              "SWITCH (",
+              "    TRUE (),",
+              "    ISINSCOPE ( fLancamentoQuirius[Hora] ), IF ( [% Crescimento Hora] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    ISINSCOPE ( dCalendario[Dia] ), IF ( [% Crescimento Dia] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    ISINSCOPE ( dCalendario[Semana] ), IF ( [% Crescimento Semana] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    ISINSCOPE ( dCalendario[Mes] ), IF ( [% Crescimento Mes] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    BLANK ()",
+              ")"
+            ],
+            "lineageTag": "cfd3bfae-95bf-4db7-a0e3-87ddd4a4cd99"
+          },
+          {
+            "name": "% Crescimento Hora",
+            "description": [
+              "VAR UltimaDataHora =",
+              "    CALCULATE (",
+              "        MAX ( fLancamentoQuirius[Hora] ),",
+              "        FILTER (",
+              "            ALL ( fLancamentoQuirius ),",
+              "            fLancamentoQuirius[Hora] < MAX ( fLancamentoQuirius[Hora] )",
+              "                && NOT ( ISBLANK ( [Qtde Notas] ) )",
+              "        )",
+              "    )",
+              "VAR QtdeUltimaHora =",
+              "    CALCULATE ( [Qtde Notas], fLancamentoQuirius[Hora] = UltimaDataHora )",
+              "VAR QtdeAtual = [Qtde Notas]",
+              "RETURN",
+              "    IF (",
+              "        NOT ISBLANK ( QtdeUltimaHora ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimaHora, QtdeUltimaHora, 0 ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "expression": [
+              "VAR UltimaDataHora =",
+              "    CALCULATE (",
+              "        MAX ( fLancamentoQuirius[Hora] ),",
+              "        FILTER (",
+              "            ALL ( fLancamentoQuirius ),",
+              "            fLancamentoQuirius[Hora] < MAX ( fLancamentoQuirius[Hora] )",
+              "                && NOT ( ISBLANK ( [Qtde Notas] ) )",
+              "        )",
+              "    )",
+              "VAR QtdeUltimaHora =",
+              "    CALCULATE ( [Qtde Notas], fLancamentoQuirius[Hora] = UltimaDataHora )",
+              "VAR QtdeAtual = [Qtde Notas]",
+              "RETURN",
+              "    IF (",
+              "        NOT ISBLANK ( QtdeUltimaHora ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimaHora, QtdeUltimaHora, 0 ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "d048b22b-a359-4764-9a2a-c2c3e612064b"
+          },
+          {
+            "name": "R$ Est. Economia",
+            "description": "DIVIDE ( [Qtde Notas], 50, 0 ) * 60",
+            "expression": "[(HS) Economia] * 20",
+            "formatString": "R$ #,#0.00",
+            "lineageTag": "d82ea27e-7b1e-4168-9661-83fc9f385a0c"
+          },
+          {
+            "name": "Último Processo",
+            "description": "MAX ( fLancamentoQuirius[Lançado Quirius] )",
+            "expression": "MAX ( fLancamentoQuirius[Lançado Quirius] )",
+            "formatString": "Short Date",
+            "lineageTag": "0cd7d9d6-eab3-4940-9035-88338b16154b"
+          },
+          {
+            "name": "% Crescimento Semana",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "description": [
+              "VAR UltimaSemana =",
+              "    CALCULATE (",
+              "        MAX ( dCalendario[Date] ),",
+              "        FILTER (",
+              "            ALL ( dCalendario ),",
+              "            dCalendario[Date] < MAX ( dCalendario[Date] )",
+              "                && WEEKNUM ( dCalendario[Date], 2 ) < WEEKNUM ( MAX ( dCalendario[Date] ), 2 )",
+              "                && NOT ( ISBLANK ( [Qtde Notas] ) )",
+              "        )",
+              "    )",
+              "VAR QtdeUltimaSemana =",
+              "    CALCULATE ( [Qtde Notas], dCalendario[Date] = UltimaSemana )",
+              "VAR QtdeAtual = [Qtde Notas]",
+              "RETURN",
+              "    IF (",
+              "        NOT ISBLANK ( QtdeUltimaSemana ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimaSemana, QtdeUltimaSemana, 0 ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "expression": [
+              "VAR UltimaSemana =",
+              "    CALCULATE (",
+              "        MAX ( dCalendario[Date] ),",
+              "        FILTER (",
+              "            ALL ( dCalendario ),",
+              "            dCalendario[Date] < MAX ( dCalendario[Date] )",
+              "                && WEEKNUM ( dCalendario[Date], 2 ) < WEEKNUM ( MAX ( dCalendario[Date] ), 2 )",
+              "                && NOT ( ISBLANK ( [Qtde Notas] ) )",
+              "        )",
+              "    )",
+              "VAR QtdeUltimaSemana =",
+              "    CALCULATE ( [Qtde Notas], dCalendario[Date] = UltimaSemana )",
+              "VAR QtdeAtual = [Qtde Notas]",
+              "RETURN",
+              "    IF (",
+              "        NOT ISBLANK ( QtdeUltimaSemana ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimaSemana, QtdeUltimaSemana, 0 ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "1ddda994-4961-4d68-a0d9-335117659753"
+          },
+          {
+            "name": "% Crescimento Mes",
+            "description": [
+              "VAR UltimoMes =",
+              "    CALCULATE (",
+              "        MAX ( dCalendario[Date] ),",
+              "        FILTER (",
+              "            ALL ( dCalendario ),",
+              "            dCalendario[Date] < MAX ( dCalendario[Date] )",
+              "                && MONTH ( dCalendario[Date] ) < MONTH ( MAX ( dCalendario[Date] ) )",
+              "                && YEAR ( dCalendario[Date] ) = YEAR ( MAX ( dCalendario[Date] ) )",
+              "                && NOT ( ISBLANK ( [Qtde Notas] ) )",
+              "        )",
+              "    )",
+              "VAR QtdeUltimoMes =",
+              "    CALCULATE ( [Qtde Notas], dCalendario[Date] = UltimoMes )",
+              "VAR QtdeAtual = [Qtde Notas]",
+              "RETURN",
+              "    IF (",
+              "        NOT ISBLANK ( QtdeUltimoMes ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimoMes, QtdeUltimoMes, 0 ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "expression": [
+              "VAR UltimoMes =",
+              "    MONTH(CALCULATE (",
+              "        MAX ( dCalendario[Date] ),",
+              "        FILTER (",
+              "            ALL ( dCalendario ),",
+              "            dCalendario[Date] < MAX ( dCalendario[Date] )",
+              "                && MONTH ( dCalendario[Date] ) < MONTH ( MAX ( dCalendario[Date] ) )",
+              "                && YEAR ( dCalendario[Date] ) = YEAR ( MAX ( dCalendario[Date] ) )",
+              "                && NOT ( ISBLANK ( [Qtde Notas] ) )",
+              "        )",
+              "    ))",
+              "    ",
+              "VAR QtdeUltimoMes =",
+              "    CALCULATE ( [Qtde Notas], MONTH(dCalendario[Date]) = UltimoMes )",
+              "VAR QtdeAtual = [Qtde Notas]",
+              "",
+              "VAR _Resultado =     IF (",
+              "        NOT ISBLANK ( QtdeUltimoMes ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimoMes, QtdeUltimoMes, 0 ),",
+              "        BLANK ()",
+              "    )",
+              "RETURN _Resultado",
+              ""
+            ],
+            "formatString": "0",
+            "lineageTag": "5f11f2a9-31dc-4c5f-b514-213aef0e09bd"
+          },
+          {
+            "name": "% Qtde Notas",
+            "description": [
+              "DIVIDE (",
+              "    [Qtde Notas],",
+              "    CALCULATE ( [Qtde Notas], ALL ( fLancamentoQuirius ) ),",
+              "    0",
+              ")"
+            ],
+            "expression": [
+              "DIVIDE (",
+              "    [Qtde Notas],",
+              "    CALCULATE ( [Qtde Notas], ALL ( fLancamentoQuirius ) ),",
+              "    0",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "3e783bfc-bca4-4f1e-b163-efebbc86940b"
+          },
+          {
+            "name": "(HS) Economia",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE([Qtde Notas] * 7,60,0)",
+            "lineageTag": "b00a907e-7cc1-4e3f-8e1c-eb0d2229f79b"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "_Medidas",
+            "mode": "import",
+            "source": {
+              "expression": "{1}",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dCalendario",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "bbe3b2b1c39b4b3e80be28b82208d4c0"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "0884b860-517a-4922-a41f-f6cd6ba3f774",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Hierarquia de datas",
+                  "table": "LocalDateTable_9e933f3c-1719-47c5-a911-7812a625a499"
+                },
+                "isDefault": true,
+                "relationship": "d208b67b-8305-45c3-b305-ab201ced58c9"
+              }
+            ]
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "3d5edd69-f89d-4097-9ae1-85679c5587d5",
+            "sourceColumn": "[Ano]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "0fb2020c-75fa-4756-9c4c-386380835dc1",
+            "sortByColumn": "IDanoEmes",
+            "sourceColumn": "[Mes]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "fce8aab5-f2d1-426a-87fb-325f817f1ffd",
+            "sortByColumn": "Date",
+            "sourceColumn": "[Dia]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Semana",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "1862008e-43ed-411a-93cd-943548d9787d",
+            "sourceColumn": "[Semana]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Dia da Semana",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "3ec2cc61-9271-4f9d-b7d4-56c17b34bcd4",
+            "sortByColumn": "Nª Dia da Semana",
+            "sourceColumn": "[Dia da Semana]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Nª Dia da Semana",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "4c445a2b-c0a6-42f2-9a82-739475d5972e",
+            "sourceColumn": "[Nª Dia da Semana]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "IDanoEmes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "dCalendario[Ano] * 100 +MONTH([Date])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "012f03aa-6259-4d96-9604-27a0f7827555",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "AnoMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "3439cd9f-4029-42e2-95ba-178eb52c43b7",
+            "sourceColumn": "[AnoMes]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Mês e Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "46aa6801-448f-4650-9401-5426210d721c",
+            "sourceColumn": "[Mês e Ano]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "SemanaDoMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": [
+              "",
+              "VAR PrimeiraSemanaAno = WEEKNUM(DATE(YEAR([Date]), MONTH([Date]), 1))",
+              "VAR SemanaAtualAno = WEEKNUM([Date])",
+              "RETURN SemanaAtualAno - PrimeiraSemanaAno"
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "d3ffbbaf-6e0c-4adc-811c-7822f56b7197",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "d159c82a-e4b3-4293-aa98-3848f4db8c8c",
+        "partitions": [
+          {
+            "name": "dCalendario",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "",
+                "VAR _dataMinima = MIN(fLancamentoQuirius[Lançado Quirius])",
+                "VAR _dataMaxima = MAX(fLancamentoQuirius[Lançado Quirius])",
+                "RETURN",
+                "ADDCOLUMNS(",
+                "    CALENDAR(",
+                "        DATE(YEAR(_dataMinima), MONTH(_dataMinima), DAY(_dataMinima)),",
+                "        DATE(YEAR(_dataMaxima), MONTH(_dataMaxima), DAY(_dataMaxima))",
+                "    ),",
+                "    \"Ano\", YEAR([Date]),",
+                "    \"Mes\", FORMAT([Date], \"MMM\") & \"/\" & YEAR([Date]),",
+                "    \"AnoMes\", YEAR([Date]) * 100 + MONTH([Date]),",
+                "    \"Semana\", WEEKNUM([Date]),",
+                "    \"Dia\", ",
+                "        VAR VdiaMes = DAY([Date])",
+                "        VAR VdiaSemana = SWITCH(",
+                "            WEEKDAY([Date]),",
+                "            1, \"Dom\",",
+                "            2, \"Seg\",",
+                "            3, \"Ter\",",
+                "            4, \"Qua\",",
+                "            5, \"Qui\",",
+                "            6, \"Sex\",",
+                "            7, \"Sáb\"",
+                "        )",
+                "        RETURN VdiaSemana & \"-\" & VdiaMes,",
+                "    \"Dia da Semana\", SWITCH(",
+                "            WEEKDAY([Date]),",
+                "            1, \"Dom\",",
+                "            2, \"Seg\",",
+                "            3, \"Ter\",",
+                "            4, \"Qua\",",
+                "            5, \"Qui\",",
+                "            6, \"Sex\",",
+                "            7, \"Sáb\"",
+                "        ),",
+                "    \"Nª Dia da Semana\", WEEKDAY([Date]),",
+                "    \"Mês e Ano\", FORMAT([Date], \"DD/YYYY\")",
+                ")",
+                ""
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "fLancamentoQuirius",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Lançado Quirius",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "4b4ed59d-1e70-4333-891d-7b420c115c3d",
+            "sourceColumn": "Lançado Quirius",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Hierarquia de datas",
+                  "table": "LocalDateTable_2444c19a-b7a0-4d4c-8a2b-eebc82084acc"
+                },
+                "isDefault": true,
+                "relationship": "26414c7e-8921-4089-b5c5-853b11d77641"
+              }
+            ]
+          },
+          {
+            "name": "Ordem",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5190af5b-88cb-4db1-a5c4-02651d7efc94",
+            "sourceColumn": "Ordem",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Nº Documento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b23e90da-10be-49cc-b3b8-7e8d9bbbf9f7",
+            "sourceColumn": "Nº Documento",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DATA VENCIMENTO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "6a984136-31e0-4e2d-87c6-109797f34eb1",
+            "sourceColumn": "DATA VENCIMENTO",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Hierarquia de datas",
+                  "table": "LocalDateTable_b59cd526-80d8-44a4-b48a-106f5a653c58"
+                },
+                "isDefault": true,
+                "relationship": "09ca2ca1-ab92-41fd-a6d0-c5b743d6e0da"
+              }
+            ]
+          },
+          {
+            "name": "CFOP",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b11c33d4-5848-4350-bbfc-33e72bae7e2f",
+            "sourceColumn": "CFOP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "DATA DE EMISSÃO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "53f4247e-d989-484b-b7bd-acda0ff0607a",
+            "sourceColumn": "DATA DE EMISSÃO",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Hierarquia de datas",
+                  "table": "LocalDateTable_b9682a4d-3173-4798-b831-fc92817d4e04"
+                },
+                "isDefault": true,
+                "relationship": "e7b41c43-e643-4f8f-8821-0b3aa6ed52c8"
+              }
+            ]
+          },
+          {
+            "name": "Data",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "efe5fe0e-ffad-4384-ae3d-2ab922429333",
+            "sourceColumn": "Data",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Hora",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "826e7990-e1ba-4366-ba26-0f1ad377e633",
+            "sourceColumn": "Hora",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Minuto",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "439944fd-ff9a-4f82-b446-7e8f5bccd90f",
+            "sourceColumn": "Minuto",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Segundo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "3810f5ae-4996-4d1b-acef-aed5efa93c28",
+            "sourceColumn": "Segundo",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "947c798a-3550-4430-bf1e-879e386e18d9",
+            "sourceColumn": "Mês",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "80d194f2-992e-4d3f-b556-02e956acd369",
+            "sourceColumn": "Ano",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "c65f66d9-8fb5-4902-b092-0d039fd0f46d",
+        "partitions": [
+          {
+            "name": "fLancamentoQuirius",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Folder.Files(\"\\\\forest.local\\dfs\\Brazil\\Trabalho\\Fin\\Fiscal\\ARQUIVO FRETE RPA\\Bases\"),",
+                "    #\"Arquivos Ocultos Filtrados1\" = Table.SelectRows(Fonte, each [Attributes]?[Hidden]? <> true),",
+                "    #\"Invocar Função Personalizada1\" = Table.AddColumn(#\"Arquivos Ocultos Filtrados1\", \"Transformar Arquivo\", each #\"Transformar Arquivo\"([Content])),",
+                "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Invocar Função Personalizada1\", {\"Name\", \"Nome da Origem\"}),",
+                "    #\"Arquivos Ocultos Filtrados2\" = Table.SelectRows(#\"Colunas Renomeadas1\", each [Attributes]?[Hidden]? <> true),",
+                "    #\"Invocar Função Personalizada2\" = Table.AddColumn(#\"Arquivos Ocultos Filtrados2\", \"Transformar Arquivo (2)\", each #\"Transformar Arquivo (2)\"([Content])),",
+                "    #\"Outras Colunas Removidas1\" = Table.SelectColumns(#\"Invocar Função Personalizada2\", {\"Transformar Arquivo (2)\"}),",
+                "    #\"Coluna de Tabela Expandida1\" = Table.ExpandTableColumn(#\"Outras Colunas Removidas1\", \"Transformar Arquivo (2)\", Table.ColumnNames(#\"Transformar Arquivo (2)\"(#\"Arquivo de Amostra (2)\"))),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Coluna de Tabela Expandida1\",{{\"Lançado Quirius\", type text}, {\"Lançado Totvs\", type any}, {\"Ordem\", Int64.Type}, {\"Nº Documento\", Int64.Type}, {\"DATA VENCIMENTO\", type date}, {\"CFOP\", Int64.Type}, {\"DATA DE EMISSÃO\", type date}}),",
+                "    #\"Valor Substituído\" = Table.ReplaceValue(#\"Tipo Alterado\",\"ok\",\"\",Replacer.ReplaceText,{\"Lançado Quirius\"}),",
+                "    #\"Linhas Classificadas1\" = Table.Sort(#\"Valor Substituído\",{{\"Lançado Quirius\", Order.Ascending}}),",
+                "    #\"Valor Substituído1\" = Table.ReplaceValue(#\"Linhas Classificadas1\",\"Quirius - RPA - \",\"\",Replacer.ReplaceText,{\"Lançado Quirius\"}),",
+                "    #\"Linhas Filtradas\" = Table.SelectRows(#\"Valor Substituído1\", each ([Lançado Quirius] <> \"\")),",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(#\"Linhas Filtradas\",{\"Lançado Quirius\", \"Ordem\", \"Nº Documento\", \"DATA VENCIMENTO\", \"CFOP\", \"DATA DE EMISSÃO\"}),",
+                "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Outras Colunas Removidas\",{{\"Lançado Quirius\", type datetime}, {\"Ordem\", type text}, {\"Nº Documento\", type text}}),",
+                "    #\"Data Inserida\" = Table.AddColumn(#\"Tipo Alterado1\", \"Data\", each DateTime.Date([Lançado Quirius]), type date),",
+                "    #\"Hora Inserida\" = Table.AddColumn(#\"Data Inserida\", \"Hora\", each Time.Hour([Lançado Quirius]), Int64.Type),",
+                "    #\"Minuto Inserido\" = Table.AddColumn(#\"Hora Inserida\", \"Minuto\", each Time.Minute([Lançado Quirius]), Int64.Type),",
+                "    #\"Segundo Inserido\" = Table.AddColumn(#\"Minuto Inserido\", \"Segundo\", each Time.Second([Lançado Quirius]), type number),",
+                "    #\"Mês Inserido\" = Table.AddColumn(#\"Segundo Inserido\", \"Mês\", each Date.Month([Lançado Quirius]), Int64.Type),",
+                "    #\"Ano Inserido\" = Table.AddColumn(#\"Mês Inserido\", \"Ano\", each Date.Year([Lançado Quirius]), Int64.Type),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Ano Inserido\")",
+                "in",
+                "    #\"Duplicatas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_2444c19a-b7a0-4d4c-8a2b-eebc82084acc",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "4c0833aa-fe45-4fd2-a3e3-34bf393bfb50",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "f72d7fe0-9bcb-49bd-aa4f-64048de4a0f2",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "57573388-79e3-48d4-b319-da95071fde66",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "69ffbdcd-fb49-4489-8b12-40a24be06526",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "d90730d6-0662-4280-bb53-efe2dbdb15c2",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "9f3dc66b-d859-4dbe-9772-667789508582",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "651fe6ec-d9ba-49b4-b00b-78c1c59bda10",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "ec77e3bd-4035-406b-a1fa-30ba175bfdda",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "e304f7c4-8d98-4024-8ca8-723d6fe910bc",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "20f25e12-4f09-4a47-850d-c2c07f5498b8",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "8407a262-62cb-495e-aa3a-bfbc0039b944",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "a6b88e9e-7c85-46e5-9916-c717684ec939"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "e9c50e0b-1b97-4e8b-9c0f-30e76b6250b5",
+        "partitions": [
+          {
+            "name": "LocalDateTable_2444c19a-b7a0-4d4c-8a2b-eebc82084acc",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('fLancamentoQuirius'[Lançado Quirius])), 1, 1), Date(Year(MAX('fLancamentoQuirius'[Lançado Quirius])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "LocalDateTable_b59cd526-80d8-44a4-b48a-106f5a653c58",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "9bb3fd87-d184-4f1c-8cff-009716a347b8",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "7dce0301-03e7-4981-bce7-cb3b7e9db943",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "990730fd-88ca-45eb-9bc0-de8125eced4a",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "dce8b773-6872-4395-944b-16c40be83994",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "d769eeb2-7c31-4d7e-ad78-010743c6f1fb",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "53937b0a-8a8f-4b62-945c-ee4b11ac78d2",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "09e92698-cc6f-4c8e-bbac-31d3da90a942",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "ed3eff55-6346-41d3-8901-10e916147b30",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "43a7280b-e0e9-40ad-9683-47d341e02439",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "b1796f5c-4e8b-4dbf-878e-0cfa55468997",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "a815bb7d-1ec7-482a-95fc-eb05b2941217",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "54ad1213-3024-49f7-ade6-c8727c3545a1"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "48672274-6334-4a03-b5e4-fc70b664d21a",
+        "partitions": [
+          {
+            "name": "LocalDateTable_b59cd526-80d8-44a4-b48a-106f5a653c58",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('fLancamentoQuirius'[DATA VENCIMENTO])), 1, 1), Date(Year(MAX('fLancamentoQuirius'[DATA VENCIMENTO])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "LocalDateTable_b9682a4d-3173-4798-b831-fc92817d4e04",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "646c7e44-3ed6-4e6b-b0e8-d82a628e0ccd",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "a8f8de8a-fa24-41f3-804c-e38707b43c52",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "8c392612-5b01-4606-9244-b5e3ff97147c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "b9dc4185-ac57-4a28-ade2-ed8abaed3b33",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "855172a4-49d0-4fe9-a6a2-834f4171a6db",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "b5121346-4dbb-4724-bf16-2478199d31ac",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "0935612d-9c96-4ec8-92c6-675a233402f0",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "122cae39-6804-434f-96f7-149bc1aa6090",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "700f086c-2114-4670-b349-63b471b73d9e",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "8b8d8d61-d577-4239-902f-8b3316fcd22e",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "10641109-5610-49c1-930a-d629a9af01c0",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "1628551b-b429-4d55-9ea8-d86ddfd7f307"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "6739487e-c9bc-4ef7-bbe6-2f629e0ac259",
+        "partitions": [
+          {
+            "name": "LocalDateTable_b9682a4d-3173-4798-b831-fc92817d4e04",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('fLancamentoQuirius'[DATA DE EMISSÃO])), 1, 1), Date(Year(MAX('fLancamentoQuirius'[DATA DE EMISSÃO])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "LocalDateTable_9e933f3c-1719-47c5-a911-7812a625a499",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "104f0a75-1f9f-4f54-b80d-fc97f154d61e",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "0b07b803-3885-43b4-95e4-af695c457e40",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "a818da26-720b-469b-a6df-35f264e43875",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "638e384a-2b1c-4a97-b54b-545dcc12a581",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "826a45cf-3378-4504-972b-5f65c1b036c5",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "3d6c0930-a698-4015-a63d-25facc37a779",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "a74f03b5-21b3-4f69-9b10-f8cfc3f64a11",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "4e163a07-378b-4594-b6d9-c3a9f0ad23f2",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "c432b6fe-a31b-4c91-9a51-738fe71b6d55",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "b9b5a340-dc25-4fcc-8122-108cb1460a09",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "819000b2-94e8-44e6-8d78-ba57827465ee",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "9a54667e-07ff-4254-a43d-b50ccf0c5fbc"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "4e1bf909-84e1-4a59-ab72-daaabc88da64",
+        "partitions": [
+          {
+            "name": "LocalDateTable_9e933f3c-1719-47c5-a911-7812a625a499",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('dCalendario'[Date])), 1, 1), Date(Year(MAX('dCalendario'[Date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "Parâmetro",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "9bbf945d34e84197a83dfb8184c47275"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Parâmetro",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "4d4711f4-db15-4a27-afa1-eeae47e58d42",
+            "relatedColumnDetails": {
+              "groupByColumns": [
+                {
+                  "groupingColumn": "Parâmetro Campos"
+                }
+              ]
+            },
+            "sortByColumn": "Parâmetro Pedido",
+            "sourceColumn": "[Value1]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Parâmetro Campos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "kind": 2,
+                  "version": 3
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "5cd66cb7-727a-4d7c-a73a-c7129948bb22",
+            "sortByColumn": "Parâmetro Pedido",
+            "sourceColumn": "[Value2]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Parâmetro Pedido",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "08dd06ce-e0a1-4f21-a4bb-7b8535dfe32a",
+            "sourceColumn": "[Value3]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "457bce80-0361-4006-a1c8-c59b1cfa32a0",
+        "partitions": [
+          {
+            "name": "Parâmetro",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "{",
+                "    (\"Horas Economizadas\", NAMEOF('_Medidas'[(HS) Economia]), 0),",
+                "    (\"R$ Est. Economia\", NAMEOF('_Medidas'[R$ Est. Economia]), 1)",
+                "}"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
