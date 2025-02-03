@@ -4,7 +4,7 @@
     "annotations": [
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"fLancamentoQuirius\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Arquivo de Amostra\",\"Transformar Arquivo\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Arquivo de Amostra (2)\",\"Transformar Arquivo (2)\"]"
+        "value": "[\"fLancamentoQuirius\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -12,7 +12,7 @@
       },
       {
         "name": "PBIDesktopVersion",
-        "value": "2.131.1203.0 (24.07)"
+        "value": "2.139.2054.0 (24.12)+334ca1c95b576cc53924655643b0d36f21caac55"
       },
       {
         "name": "PBI_ProTooling",
@@ -1709,201 +1709,6 @@
       "returnErrorValuesAsNull": true
     },
     "defaultPowerBIDataSourceVersion": "powerBI_V3",
-    "expressions": [
-      {
-        "name": "Parâmetro1",
-        "annotations": [
-          {
-            "name": "PBI_ResultType",
-            "value": "Binary"
-          }
-        ],
-        "expression": "#\"Arquivo de Amostra\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Arquivo de Amostra\", Type=\"Binary\", IsParameterQueryRequired=true]",
-        "kind": "m",
-        "lineageTag": "37b1c391-f562-4d3f-bd39-78e523cd0356",
-        "queryGroup": "Transformar Arquivo de Bases\\Consultas Auxiliares"
-      },
-      {
-        "name": "Transformar o Arquivo de Exemplo",
-        "annotations": [
-          {
-            "name": "PBI_ResultType",
-            "value": "Table"
-          }
-        ],
-        "expression": [
-          "let",
-          "    Fonte = Excel.Workbook(Parâmetro1, null, true),",
-          "    Planilha1_Sheet = Fonte{[Item=\"Planilha1\",Kind=\"Sheet\"]}[Data],",
-          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Planilha1_Sheet, [PromoteAllScalars=true])",
-          "in",
-          "    #\"Cabeçalhos Promovidos\""
-        ],
-        "kind": "m",
-        "lineageTag": "532d2f85-28e3-45ef-a36e-ed0c99df67f0",
-        "queryGroup": "Transformar Arquivo de Bases"
-      },
-      {
-        "name": "Arquivo de Amostra",
-        "annotations": [
-          {
-            "name": "PBI_ResultType",
-            "value": "Binary"
-          }
-        ],
-        "expression": [
-          "let",
-          "    Fonte = Folder.Files(\"\\\\forest.local\\dfs\\Brazil\\Trabalho\\Fin\\Fiscal\\ARQUIVO FRETE RPA\\Bases\"),",
-          "    Navegação1 = Fonte{0}[Content]",
-          "in",
-          "    Navegação1"
-        ],
-        "kind": "m",
-        "lineageTag": "7ccaa5e0-8fe0-4e3d-9e03-65456cc24101",
-        "queryGroup": "Transformar Arquivo de Bases\\Consultas Auxiliares"
-      },
-      {
-        "name": "Transformar Arquivo",
-        "annotations": [
-          {
-            "name": "PBI_ResultType",
-            "value": "Function"
-          }
-        ],
-        "expression": [
-          "let",
-          "    Fonte = (Parâmetro1 as binary) => let",
-          "    Fonte = Excel.Workbook(Parâmetro1, null, true),",
-          "    Planilha1_Sheet = Fonte{[Item=\"Planilha1\",Kind=\"Sheet\"]}[Data],",
-          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Planilha1_Sheet, [PromoteAllScalars=true])",
-          "in",
-          "    #\"Cabeçalhos Promovidos\"",
-          "in",
-          "    Fonte"
-        ],
-        "kind": "m",
-        "lineageTag": "330d16cf-3c13-48d8-a0e9-d29417ad3c57",
-        "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transformar o Arquivo de Exemplo\"\"}\" ]",
-        "queryGroup": "Transformar Arquivo de Bases\\Consultas Auxiliares"
-      },
-      {
-        "name": "Parâmetro2",
-        "annotations": [
-          {
-            "name": "PBI_ResultType",
-            "value": "Binary"
-          }
-        ],
-        "expression": "#\"Arquivo de Amostra (2)\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Arquivo de Amostra (2)\", Type=\"Binary\", IsParameterQueryRequired=true]",
-        "kind": "m",
-        "lineageTag": "15a7e7b7-6585-43d5-bcc6-6d763ca31e93",
-        "queryGroup": "Transformar Arquivo de Bases (2)\\Consultas Auxiliares"
-      },
-      {
-        "name": "Transformar o Arquivo de Exemplo (2)",
-        "annotations": [
-          {
-            "name": "PBI_ResultType",
-            "value": "Table"
-          }
-        ],
-        "expression": [
-          "let",
-          "    Fonte = Excel.Workbook(Parâmetro2, null, true),",
-          "    Sheet1_Sheet = Fonte{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],",
-          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true])",
-          "in",
-          "    #\"Cabeçalhos Promovidos\""
-        ],
-        "kind": "m",
-        "lineageTag": "689e3662-73fc-4825-af8a-33ba87d4fcd3",
-        "queryGroup": "Transformar Arquivo de Bases (2)"
-      },
-      {
-        "name": "Arquivo de Amostra (2)",
-        "annotations": [
-          {
-            "name": "PBI_ResultType",
-            "value": "Binary"
-          }
-        ],
-        "expression": [
-          "let",
-          "    Fonte = Folder.Files(\"\\\\forest.local\\dfs\\Brazil\\Trabalho\\Fin\\Fiscal\\ARQUIVO FRETE RPA\\Bases\"),",
-          "    #\"Arquivos Ocultos Filtrados1\" = Table.SelectRows(Fonte, each [Attributes]?[Hidden]? <> true),",
-          "    #\"Invocar Função Personalizada1\" = Table.AddColumn(#\"Arquivos Ocultos Filtrados1\", \"Transformar Arquivo\", each #\"Transformar Arquivo\"([Content])),",
-          "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Invocar Função Personalizada1\", {\"Name\", \"Nome da Origem\"}),",
-          "    Navegação1 = #\"Colunas Renomeadas1\"{0}[Content]",
-          "in",
-          "    Navegação1"
-        ],
-        "kind": "m",
-        "lineageTag": "0b5129fe-a06e-4780-bb8a-af194429a1a9",
-        "queryGroup": "Transformar Arquivo de Bases (2)\\Consultas Auxiliares"
-      },
-      {
-        "name": "Transformar Arquivo (2)",
-        "annotations": [
-          {
-            "name": "PBI_ResultType",
-            "value": "Function"
-          }
-        ],
-        "expression": [
-          "let",
-          "    Fonte = (Parâmetro2 as binary) => let",
-          "    Fonte = Excel.Workbook(Parâmetro2, null, true),",
-          "    Sheet1_Sheet = Fonte{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],",
-          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true])",
-          "in",
-          "    #\"Cabeçalhos Promovidos\"",
-          "in",
-          "    Fonte"
-        ],
-        "kind": "m",
-        "lineageTag": "ac60315d-799e-49c7-96b9-ed9158f710e8",
-        "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transformar o Arquivo de Exemplo (2)\"\"}\" ]",
-        "queryGroup": "Transformar Arquivo de Bases (2)\\Consultas Auxiliares"
-      }
-    ],
-    "queryGroups": [
-      {
-        "annotations": [
-          {
-            "name": "PBI_QueryGroupOrder",
-            "value": "0"
-          }
-        ],
-        "folder": "Transformar Arquivo de Bases"
-      },
-      {
-        "annotations": [
-          {
-            "name": "PBI_QueryGroupOrder",
-            "value": "0"
-          }
-        ],
-        "folder": "Transformar Arquivo de Bases\\Consultas Auxiliares"
-      },
-      {
-        "annotations": [
-          {
-            "name": "PBI_QueryGroupOrder",
-            "value": "2"
-          }
-        ],
-        "folder": "Transformar Arquivo de Bases (2)"
-      },
-      {
-        "annotations": [
-          {
-            "name": "PBI_QueryGroupOrder",
-            "value": "0"
-          }
-        ],
-        "folder": "Transformar Arquivo de Bases (2)\\Consultas Auxiliares"
-      }
-    ],
     "relationships": [
       {
         "name": "26414c7e-8921-4089-b5c5-853b11d77641",
@@ -1912,22 +1717,6 @@
         "joinOnDateBehavior": "datePartOnly",
         "toColumn": "Date",
         "toTable": "LocalDateTable_2444c19a-b7a0-4d4c-8a2b-eebc82084acc"
-      },
-      {
-        "name": "09ca2ca1-ab92-41fd-a6d0-c5b743d6e0da",
-        "fromColumn": "DATA VENCIMENTO",
-        "fromTable": "fLancamentoQuirius",
-        "joinOnDateBehavior": "datePartOnly",
-        "toColumn": "Date",
-        "toTable": "LocalDateTable_b59cd526-80d8-44a4-b48a-106f5a653c58"
-      },
-      {
-        "name": "e7b41c43-e643-4f8f-8821-0b3aa6ed52c8",
-        "fromColumn": "DATA DE EMISSÃO",
-        "fromTable": "fLancamentoQuirius",
-        "joinOnDateBehavior": "datePartOnly",
-        "toColumn": "Date",
-        "toTable": "LocalDateTable_b9682a4d-3173-4798-b831-fc92817d4e04"
       },
       {
         "name": "d208b67b-8305-45c3-b305-ab201ced58c9",
@@ -2804,6 +2593,10 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
           }
         ],
         "columns": [
@@ -2864,28 +2657,13 @@
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic"
-              },
-              {
-                "name": "UnderlyingDateTimeDataType",
-                "value": "Date"
               }
             ],
-            "dataType": "dateTime",
-            "formatString": "Long Date",
+            "dataType": "int64",
+            "formatString": "0",
             "lineageTag": "6a984136-31e0-4e2d-87c6-109797f34eb1",
             "sourceColumn": "DATA VENCIMENTO",
-            "summarizeBy": "none",
-            "variations": [
-              {
-                "name": "Variation",
-                "defaultHierarchy": {
-                  "hierarchy": "Hierarquia de datas",
-                  "table": "LocalDateTable_b59cd526-80d8-44a4-b48a-106f5a653c58"
-                },
-                "isDefault": true,
-                "relationship": "09ca2ca1-ab92-41fd-a6d0-c5b743d6e0da"
-              }
-            ]
+            "summarizeBy": "sum"
           },
           {
             "name": "CFOP",
@@ -2907,28 +2685,13 @@
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic"
-              },
-              {
-                "name": "UnderlyingDateTimeDataType",
-                "value": "Date"
               }
             ],
-            "dataType": "dateTime",
-            "formatString": "Short Date",
+            "dataType": "int64",
+            "formatString": "0",
             "lineageTag": "53f4247e-d989-484b-b7bd-acda0ff0607a",
             "sourceColumn": "DATA DE EMISSÃO",
-            "summarizeBy": "none",
-            "variations": [
-              {
-                "name": "Variation",
-                "defaultHierarchy": {
-                  "hierarchy": "Hierarquia de datas",
-                  "table": "LocalDateTable_b9682a4d-3173-4798-b831-fc92817d4e04"
-                },
-                "isDefault": true,
-                "relationship": "e7b41c43-e643-4f8f-8821-0b3aa6ed52c8"
-              }
-            ]
+            "summarizeBy": "sum"
           },
           {
             "name": "Data",
@@ -3030,18 +2793,14 @@
             "source": {
               "expression": [
                 "let",
-                "    Fonte = Folder.Files(\"\\\\forest.local\\dfs\\Brazil\\Trabalho\\Fin\\Fiscal\\ARQUIVO FRETE RPA\\Bases\"),",
-                "    #\"Arquivos Ocultos Filtrados1\" = Table.SelectRows(Fonte, each [Attributes]?[Hidden]? <> true),",
-                "    #\"Invocar Função Personalizada1\" = Table.AddColumn(#\"Arquivos Ocultos Filtrados1\", \"Transformar Arquivo\", each #\"Transformar Arquivo\"([Content])),",
-                "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Invocar Função Personalizada1\", {\"Name\", \"Nome da Origem\"}),",
-                "    #\"Arquivos Ocultos Filtrados2\" = Table.SelectRows(#\"Colunas Renomeadas1\", each [Attributes]?[Hidden]? <> true),",
-                "    #\"Invocar Função Personalizada2\" = Table.AddColumn(#\"Arquivos Ocultos Filtrados2\", \"Transformar Arquivo (2)\", each #\"Transformar Arquivo (2)\"([Content])),",
-                "    #\"Outras Colunas Removidas1\" = Table.SelectColumns(#\"Invocar Função Personalizada2\", {\"Transformar Arquivo (2)\"}),",
-                "    #\"Coluna de Tabela Expandida1\" = Table.ExpandTableColumn(#\"Outras Colunas Removidas1\", \"Transformar Arquivo (2)\", Table.ColumnNames(#\"Transformar Arquivo (2)\"(#\"Arquivo de Amostra (2)\"))),",
-                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Coluna de Tabela Expandida1\",{{\"Lançado Quirius\", type text}, {\"Lançado Totvs\", type any}, {\"Ordem\", Int64.Type}, {\"Nº Documento\", Int64.Type}, {\"DATA VENCIMENTO\", type date}, {\"CFOP\", Int64.Type}, {\"DATA DE EMISSÃO\", type date}}),",
+                "    Fonte = Folder.Files(\"\\\\forest.local\\dfs\\Brazil\\Trabalho\\Fin\\Fiscal\\ARQUIVO FRETE RPA\"),",
+                "    #\"\\\\forest local\\dfs\\Brazil\\Trabalho\\Fin\\Fiscal\\ARQUIVO FRETE RPA\\Bases\\_database_rpa_fretes xlsx\" = Fonte{[#\"Folder Path\"=\"\\\\forest.local\\dfs\\Brazil\\Trabalho\\Fin\\Fiscal\\ARQUIVO FRETE RPA\\\",Name=\"database_rpa_fretes.xlsx\"]}[Content],",
+                "    #\"Pasta de Trabalho Importada do Excel\" = Excel.Workbook(#\"\\\\forest local\\dfs\\Brazil\\Trabalho\\Fin\\Fiscal\\ARQUIVO FRETE RPA\\Bases\\_database_rpa_fretes xlsx\"),",
+                "    Sheet1_Sheet = #\"Pasta de Trabalho Importada do Excel\"{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"Lançado Quirius\", type text}, {\"Lançado Totvs\", type text}, {\"Ordem\", Int64.Type}, {\"Nº Documento\", Int64.Type}, {\"DATA VENCIMENTO\", Int64.Type}, {\"CFOP\", Int64.Type}, {\"DATA DE EMISSÃO\", Int64.Type}}),",
                 "    #\"Valor Substituído\" = Table.ReplaceValue(#\"Tipo Alterado\",\"ok\",\"\",Replacer.ReplaceText,{\"Lançado Quirius\"}),",
-                "    #\"Linhas Classificadas1\" = Table.Sort(#\"Valor Substituído\",{{\"Lançado Quirius\", Order.Ascending}}),",
-                "    #\"Valor Substituído1\" = Table.ReplaceValue(#\"Linhas Classificadas1\",\"Quirius - RPA - \",\"\",Replacer.ReplaceText,{\"Lançado Quirius\"}),",
+                "    #\"Valor Substituído1\" = Table.ReplaceValue(#\"Valor Substituído\",\"Quirius - RPA - \",\"\",Replacer.ReplaceText,{\"Lançado Quirius\"}),",
                 "    #\"Linhas Filtradas\" = Table.SelectRows(#\"Valor Substituído1\", each ([Lançado Quirius] <> \"\")),",
                 "    #\"Outras Colunas Removidas\" = Table.SelectColumns(#\"Linhas Filtradas\",{\"Lançado Quirius\", \"Ordem\", \"Nº Documento\", \"DATA VENCIMENTO\", \"CFOP\", \"DATA DE EMISSÃO\"}),",
                 "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Outras Colunas Removidas\",{{\"Lançado Quirius\", type datetime}, {\"Ordem\", type text}, {\"Nº Documento\", type text}}),",
@@ -3255,408 +3014,6 @@
             "mode": "import",
             "source": {
               "expression": "Calendar(Date(Year(MIN('fLancamentoQuirius'[Lançado Quirius])), 1, 1), Date(Year(MAX('fLancamentoQuirius'[Lançado Quirius])), 12, 31))",
-              "type": "calculated"
-            }
-          }
-        ],
-        "showAsVariationsOnly": true
-      },
-      {
-        "name": "LocalDateTable_b59cd526-80d8-44a4-b48a-106f5a653c58",
-        "annotations": [
-          {
-            "name": "__PBI_LocalDateTable",
-            "value": "true"
-          }
-        ],
-        "columns": [
-          {
-            "name": "Date",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              }
-            ],
-            "dataCategory": "PaddedDateTableDates",
-            "dataType": "dateTime",
-            "isHidden": true,
-            "isNameInferred": true,
-            "lineageTag": "9bb3fd87-d184-4f1c-8cff-009716a347b8",
-            "sourceColumn": "[Date]",
-            "summarizeBy": "none",
-            "type": "calculatedTableColumn"
-          },
-          {
-            "name": "Ano",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Year"
-              }
-            ],
-            "dataCategory": "Years",
-            "dataType": "int64",
-            "expression": "YEAR([Date])",
-            "isHidden": true,
-            "lineageTag": "7dce0301-03e7-4981-bce7-cb3b7e9db943",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "MonthNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "MonthNumber"
-              }
-            ],
-            "dataCategory": "MonthOfYear",
-            "dataType": "int64",
-            "expression": "MONTH([Date])",
-            "isHidden": true,
-            "lineageTag": "990730fd-88ca-45eb-9bc0-de8125eced4a",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Mês",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Month"
-              }
-            ],
-            "dataCategory": "Months",
-            "dataType": "string",
-            "expression": "FORMAT([Date], \"MMMM\")",
-            "isHidden": true,
-            "lineageTag": "dce8b773-6872-4395-944b-16c40be83994",
-            "sortByColumn": "MonthNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "QuarterNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "QuarterNumber"
-              }
-            ],
-            "dataCategory": "QuarterOfYear",
-            "dataType": "int64",
-            "expression": "INT(([MonthNo] + 2) / 3)",
-            "isHidden": true,
-            "lineageTag": "d769eeb2-7c31-4d7e-ad78-010743c6f1fb",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Trimestre",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Quarter"
-              }
-            ],
-            "dataCategory": "Quarters",
-            "dataType": "string",
-            "expression": "\"Trim \" & [QuarterNo]",
-            "isHidden": true,
-            "lineageTag": "53937b0a-8a8f-4b62-945c-ee4b11ac78d2",
-            "sortByColumn": "QuarterNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Dia",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Day"
-              }
-            ],
-            "dataCategory": "DayOfMonth",
-            "dataType": "int64",
-            "expression": "DAY([Date])",
-            "isHidden": true,
-            "lineageTag": "09e92698-cc6f-4c8e-bbac-31d3da90a942",
-            "summarizeBy": "none",
-            "type": "calculated"
-          }
-        ],
-        "hierarchies": [
-          {
-            "name": "Hierarquia de datas",
-            "annotations": [
-              {
-                "name": "TemplateId",
-                "value": "DateHierarchy"
-              }
-            ],
-            "levels": [
-              {
-                "name": "Ano",
-                "column": "Ano",
-                "lineageTag": "ed3eff55-6346-41d3-8901-10e916147b30",
-                "ordinal": 0
-              },
-              {
-                "name": "Trimestre",
-                "column": "Trimestre",
-                "lineageTag": "43a7280b-e0e9-40ad-9683-47d341e02439",
-                "ordinal": 1
-              },
-              {
-                "name": "Mês",
-                "column": "Mês",
-                "lineageTag": "b1796f5c-4e8b-4dbf-878e-0cfa55468997",
-                "ordinal": 2
-              },
-              {
-                "name": "Dia",
-                "column": "Dia",
-                "lineageTag": "a815bb7d-1ec7-482a-95fc-eb05b2941217",
-                "ordinal": 3
-              }
-            ],
-            "lineageTag": "54ad1213-3024-49f7-ade6-c8727c3545a1"
-          }
-        ],
-        "isHidden": true,
-        "lineageTag": "48672274-6334-4a03-b5e4-fc70b664d21a",
-        "partitions": [
-          {
-            "name": "LocalDateTable_b59cd526-80d8-44a4-b48a-106f5a653c58",
-            "mode": "import",
-            "source": {
-              "expression": "Calendar(Date(Year(MIN('fLancamentoQuirius'[DATA VENCIMENTO])), 1, 1), Date(Year(MAX('fLancamentoQuirius'[DATA VENCIMENTO])), 12, 31))",
-              "type": "calculated"
-            }
-          }
-        ],
-        "showAsVariationsOnly": true
-      },
-      {
-        "name": "LocalDateTable_b9682a4d-3173-4798-b831-fc92817d4e04",
-        "annotations": [
-          {
-            "name": "__PBI_LocalDateTable",
-            "value": "true"
-          }
-        ],
-        "columns": [
-          {
-            "name": "Date",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              }
-            ],
-            "dataCategory": "PaddedDateTableDates",
-            "dataType": "dateTime",
-            "isHidden": true,
-            "isNameInferred": true,
-            "lineageTag": "646c7e44-3ed6-4e6b-b0e8-d82a628e0ccd",
-            "sourceColumn": "[Date]",
-            "summarizeBy": "none",
-            "type": "calculatedTableColumn"
-          },
-          {
-            "name": "Ano",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Year"
-              }
-            ],
-            "dataCategory": "Years",
-            "dataType": "int64",
-            "expression": "YEAR([Date])",
-            "isHidden": true,
-            "lineageTag": "a8f8de8a-fa24-41f3-804c-e38707b43c52",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "MonthNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "MonthNumber"
-              }
-            ],
-            "dataCategory": "MonthOfYear",
-            "dataType": "int64",
-            "expression": "MONTH([Date])",
-            "isHidden": true,
-            "lineageTag": "8c392612-5b01-4606-9244-b5e3ff97147c",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Mês",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Month"
-              }
-            ],
-            "dataCategory": "Months",
-            "dataType": "string",
-            "expression": "FORMAT([Date], \"MMMM\")",
-            "isHidden": true,
-            "lineageTag": "b9dc4185-ac57-4a28-ade2-ed8abaed3b33",
-            "sortByColumn": "MonthNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "QuarterNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "QuarterNumber"
-              }
-            ],
-            "dataCategory": "QuarterOfYear",
-            "dataType": "int64",
-            "expression": "INT(([MonthNo] + 2) / 3)",
-            "isHidden": true,
-            "lineageTag": "855172a4-49d0-4fe9-a6a2-834f4171a6db",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Trimestre",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Quarter"
-              }
-            ],
-            "dataCategory": "Quarters",
-            "dataType": "string",
-            "expression": "\"Trim \" & [QuarterNo]",
-            "isHidden": true,
-            "lineageTag": "b5121346-4dbb-4724-bf16-2478199d31ac",
-            "sortByColumn": "QuarterNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Dia",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Day"
-              }
-            ],
-            "dataCategory": "DayOfMonth",
-            "dataType": "int64",
-            "expression": "DAY([Date])",
-            "isHidden": true,
-            "lineageTag": "0935612d-9c96-4ec8-92c6-675a233402f0",
-            "summarizeBy": "none",
-            "type": "calculated"
-          }
-        ],
-        "hierarchies": [
-          {
-            "name": "Hierarquia de datas",
-            "annotations": [
-              {
-                "name": "TemplateId",
-                "value": "DateHierarchy"
-              }
-            ],
-            "levels": [
-              {
-                "name": "Ano",
-                "column": "Ano",
-                "lineageTag": "122cae39-6804-434f-96f7-149bc1aa6090",
-                "ordinal": 0
-              },
-              {
-                "name": "Trimestre",
-                "column": "Trimestre",
-                "lineageTag": "700f086c-2114-4670-b349-63b471b73d9e",
-                "ordinal": 1
-              },
-              {
-                "name": "Mês",
-                "column": "Mês",
-                "lineageTag": "8b8d8d61-d577-4239-902f-8b3316fcd22e",
-                "ordinal": 2
-              },
-              {
-                "name": "Dia",
-                "column": "Dia",
-                "lineageTag": "10641109-5610-49c1-930a-d629a9af01c0",
-                "ordinal": 3
-              }
-            ],
-            "lineageTag": "1628551b-b429-4d55-9ea8-d86ddfd7f307"
-          }
-        ],
-        "isHidden": true,
-        "lineageTag": "6739487e-c9bc-4ef7-bbe6-2f629e0ac259",
-        "partitions": [
-          {
-            "name": "LocalDateTable_b9682a4d-3173-4798-b831-fc92817d4e04",
-            "mode": "import",
-            "source": {
-              "expression": "Calendar(Date(Year(MIN('fLancamentoQuirius'[DATA DE EMISSÃO])), 1, 1), Date(Year(MAX('fLancamentoQuirius'[DATA DE EMISSÃO])), 12, 31))",
               "type": "calculated"
             }
           }
