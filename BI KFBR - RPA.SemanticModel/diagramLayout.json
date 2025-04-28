@@ -59,6 +59,29 @@
             "width": 234
           },
           "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1192,
+            "y": 192.5
+          },
+          "nodeIndex": "fkms_rpa_otif_kbi",
+          "nodeLineageTag": "36914237-47b8-4e66-b342-dc674385ce71",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "Parâmetro 2",
+          "nodeLineageTag": "6f8745ed-acf6-479f-b7d5-9b4cd6f22014",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "Todas as tabelas",
@@ -67,8 +90,49 @@
       "showExtraHeaderInfo": false,
       "hideKeyFieldsWhenCollapsed": false,
       "tablesLocked": false
+    },
+    {
+      "ordinal": 1,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 390,
+            "y": 81
+          },
+          "nodeIndex": "dCalendario",
+          "nodeLineageTag": "d159c82a-e4b3-4293-aa98-3848f4db8c8c",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 859,
+            "y": 88
+          },
+          "nodeIndex": "fkms_rpa_otif_kbi",
+          "nodeLineageTag": "36914237-47b8-4e66-b342-dc674385ce71",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 1
+        }
+      ],
+      "name": "Layout 1",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
     }
   ],
-  "selectedDiagram": "Todas as tabelas",
+  "selectedDiagram": "Layout 1",
   "defaultDiagram": "Todas as tabelas"
 }

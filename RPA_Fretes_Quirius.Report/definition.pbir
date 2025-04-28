@@ -1,9 +1,0 @@
-{
-  "version": "4.0",
-  "datasetReference": {
-    "byPath": {
-      "path": "../RPA_Fretes_Quirius.SemanticModel"
-    },
-    "byConnection": null
-  }
-}

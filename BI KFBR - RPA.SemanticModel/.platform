@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
-    "type": "Report",
-    "displayName": "RPA_Fretes_Quirius"
+    "type": "SemanticModel",
+    "displayName": "BI KFBR - RPA"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "993dae68-6288-45ea-b23d-d0a618fccf3d"
+    "logicalId": "20580adf-5552-4455-81f5-3fcc68ab7d33"
   }
 }
