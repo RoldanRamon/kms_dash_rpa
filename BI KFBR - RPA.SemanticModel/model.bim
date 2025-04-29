@@ -4,11 +4,11 @@
     "annotations": [
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"fLancamentoQuirius\",\"fkms_rpa_otif_kbi\"]"
+        "value": "[\"fLancamentoQuirius\",\"fkms_rpa_otif_kbi\",\"kms_rpa_lancamento_mla\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
-        "value": "1"
+        "value": "0"
       },
       {
         "name": "PBIDesktopVersion",
@@ -152,270 +152,6 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.714
-                    }
-                  }
-                ]
-              },
-              "d_calendario.date.variation.hierarquia_de_data": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "dCalendario",
-                    "Hierarchy": "Hierarquia de datas",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Date"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "hierarquia de data": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "hierarquia de information": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "hierarquia de fact": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "hierarquia de info": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "hierarquia de statistic": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "hierarquia de document": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "hierarquia de figure": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "hierarquia de record": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  }
-                ]
-              },
-              "d_calendario.date.variation.hierarquia_de_data.ano": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "dCalendario",
-                    "Hierarchy": "Hierarquia de datas",
-                    "HierarchyLevel": "Ano",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Date"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "ano": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "date ano": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "moment ano": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.6
-                    }
-                  },
-                  {
-                    "period ano": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  }
-                ]
-              },
-              "d_calendario.date.variation.hierarquia_de_data.dia": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "dCalendario",
-                    "Hierarchy": "Hierarquia de datas",
-                    "HierarchyLevel": "Dia",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Date"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "dia": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "date dia": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "moment dia": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.6
-                    }
-                  },
-                  {
-                    "period dia": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  }
-                ]
-              },
-              "d_calendario.date.variation.hierarquia_de_data.mê": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "dCalendario",
-                    "Hierarchy": "Hierarquia de datas",
-                    "HierarchyLevel": "Mês",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Date"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "mê": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "date mê": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "moment mê": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.6
-                    }
-                  },
-                  {
-                    "period mê": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  }
-                ]
-              },
-              "d_calendario.date.variation.hierarquia_de_data.trimestre": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "dCalendario",
-                    "Hierarchy": "Hierarquia de datas",
-                    "HierarchyLevel": "Trimestre",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Date"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "trimestre": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "date trimestre": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "moment trimestre": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.6
-                    }
-                  },
-                  {
-                    "period trimestre": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
                     }
                   }
                 ]
@@ -914,190 +650,6 @@
                   }
                 ]
               },
-              "f_lancamento_quirius.lançado_quirius.ano": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fLancamentoQuirius",
-                    "Hierarchy": "Hierarquia de datas",
-                    "HierarchyLevel": "Ano",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Lançado Quirius"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "ano": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "lançado quirius ano": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "f_lancamento_quirius.lançado_quirius.dia": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fLancamentoQuirius",
-                    "Hierarchy": "Hierarquia de datas",
-                    "HierarchyLevel": "Dia",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Lançado Quirius"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "dia": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "lançado quirius dia": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "f_lancamento_quirius.lançado_quirius.hierarquia_de_data": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fLancamentoQuirius",
-                    "Hierarchy": "Hierarquia de datas",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Lançado Quirius"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "hierarquia de data": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "hierarquia de information": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "hierarquia de fact": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "hierarquia de info": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "hierarquia de statistic": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "hierarquia de document": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "hierarquia de figure": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "hierarquia de record": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  }
-                ]
-              },
-              "f_lancamento_quirius.lançado_quirius.mê": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fLancamentoQuirius",
-                    "Hierarchy": "Hierarquia de datas",
-                    "HierarchyLevel": "Mês",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Lançado Quirius"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "mê": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "lançado quirius mê": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "f_lancamento_quirius.lançado_quirius.trimestre": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fLancamentoQuirius",
-                    "Hierarchy": "Hierarquia de datas",
-                    "HierarchyLevel": "Trimestre",
-                    "VariationSet": "Variation",
-                    "VariationSource": "Lançado Quirius"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "trimestre": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "lançado quirius trimestre": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
               "f_lancamento_quirius.minuto": {
                 "Definition": {
                   "Binding": {
@@ -1493,10 +1045,435 @@
                   }
                 ]
               },
-              "parâmetro": {
+              "kms_rpa_lancamento_mla": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "Parâmetro"
+                    "ConceptualEntity": "kms_rpa_lancamento_mla"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "kms rpa lancamento mla": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "km rpa lancamento mla": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "kms_rpa_lancamento_mla": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "kms_rpa_lancamento_mla.centro_de_custo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "kms_rpa_lancamento_mla",
+                    "ConceptualProperty": "CentroDeCusto"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "centro de custo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CentroDeCusto": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "kms_rpa_lancamento_mla.codigo_doitem": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "kms_rpa_lancamento_mla",
+                    "ConceptualProperty": "CodigoDoitem"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "codigo doitem": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CodigoDoitem": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "kms_rpa_lancamento_mla.data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "kms_rpa_lancamento_mla",
+                    "ConceptualProperty": "Data"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "kms_rpa_lancamento_mla.estabelecimento": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "kms_rpa_lancamento_mla",
+                    "ConceptualProperty": "Estabelecimento"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "estabelecimento": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "kms_rpa_lancamento_mla.hora": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "kms_rpa_lancamento_mla",
+                    "ConceptualProperty": "Hora"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hora": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "time": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "kms_rpa_lancamento_mla.log": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "kms_rpa_lancamento_mla",
+                    "ConceptualProperty": "Log"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "log": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "journal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "diary": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "daybook": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "logbook": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "calendar": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "kms_rpa_lancamento_mla.qtde_requisitada": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "kms_rpa_lancamento_mla",
+                    "ConceptualProperty": "QtdeRequisitada"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtde requisitada": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "QtdeRequisitada": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "kms_rpa_lancamento_mla.quantidade_delinhas_ordem": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "kms_rpa_lancamento_mla",
+                    "ConceptualProperty": "QuantidadeDelinhasOrdem"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "quantidade delinhas ordem": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quantidade delinha ordem": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "QuantidadeDelinhasOrdem": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "kms_rpa_lancamento_mla.unidade_de_negocio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "kms_rpa_lancamento_mla",
+                    "ConceptualProperty": "UnidadeDeNegocio"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "unidade de negocio": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "UnidadeDeNegocio": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "kms_rpa_lancamento_mla.valor_simbolico": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "kms_rpa_lancamento_mla",
+                    "ConceptualProperty": "ValorSimbolico"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor simbolico": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ValorSimbolico": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "parametrocomprasMLA": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Parametro-Compras-MLA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "parametro-compras-MLA": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "parametro-compra-MLA": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "parametro compras MLA": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "parametro compra MLA": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.7566
+                    }
+                  }
+                ]
+              },
+              "parametrocomprasMLA.parâmetro": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Parametro-Compras-MLA",
+                    "ConceptualProperty": "Parâmetro"
                   }
                 },
                 "State": "Generated",
@@ -1508,23 +1485,76 @@
                   }
                 ]
               },
-              "parâmetro.parâmetro": {
+              "parametrocomprasMLA.parâmetro_campos": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "Parâmetro",
-                    "ConceptualProperty": "Parâmetro"
+                    "ConceptualEntity": "Parametro-Compras-MLA",
+                    "ConceptualProperty": "Parâmetro Campos"
                   }
                 },
-                "NameType": "Name",
                 "State": "Generated",
                 "Terms": [
                   {
-                    "parâmetro": {
+                    "parâmetro campos": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "parametrocomprasMLA.parâmetro_pedido": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Parametro-Compras-MLA",
+                    "ConceptualProperty": "Parâmetro Pedido"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "parâmetro pedido": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "parâmetro": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Parametro-Fiscal-Fretes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "parametro-fiscal-frete": {
                       "State": "Generated"
                     }
                   },
                   {
-                    "parâmetro name": {
+                    "parametro fiscal frete": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "parâmetro.parâmetro": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Parametro-Fiscal-Fretes",
+                    "ConceptualProperty": "Parâmetro"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "parâmetro": {
                       "State": "Generated"
                     }
                   }
@@ -1533,7 +1563,7 @@
               "parâmetro.parâmetro_campos": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "Parâmetro",
+                    "ConceptualEntity": "Parametro-Fiscal-Fretes",
                     "ConceptualProperty": "Parâmetro Campos"
                   }
                 },
@@ -1552,7 +1582,7 @@
               "parâmetro.parâmetro_pedido": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "Parâmetro",
+                    "ConceptualEntity": "Parametro-Fiscal-Fretes",
                     "ConceptualProperty": "Parâmetro Pedido"
                   }
                 },
@@ -1571,14 +1601,34 @@
               "parâmetro_2": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "Parâmetro 2"
+                    "ConceptualEntity": "Parametro-Compras-KBI"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "parâmetro 2": {
+                    "parametro-compras-KBI": {
                       "State": "Generated"
+                    }
+                  },
+                  {
+                    "parametro-compra-KBI": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "parametro compras KBI": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "parametro compra KBI": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.7566
                     }
                   }
                 ]
@@ -1586,7 +1636,7 @@
               "parâmetro_2.parâmetro": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "Parâmetro 2",
+                    "ConceptualEntity": "Parametro-Compras-KBI",
                     "ConceptualProperty": "Parâmetro"
                   }
                 },
@@ -1602,7 +1652,7 @@
               "parâmetro_2.parâmetro_campos": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "Parâmetro 2",
+                    "ConceptualEntity": "Parametro-Compras-KBI",
                     "ConceptualProperty": "Parâmetro Campos"
                   }
                 },
@@ -1621,7 +1671,7 @@
               "parâmetro_2.parâmetro_pedido": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "Parâmetro 2",
+                    "ConceptualEntity": "Parametro-Compras-KBI",
                     "ConceptualProperty": "Parâmetro Pedido"
                   }
                 },
@@ -1665,16 +1715,6 @@
                     "(HS) economia": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "Horas Economizadas": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
                   }
                 ]
               },
@@ -1694,6 +1734,38 @@
                   },
                   {
                     "(HS) economia kbi": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "(HS) Economia": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.HS_economiamla": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "(HS) Economia-mla"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "(HS) economia-mla": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "(HS) economia mla": {
                       "State": "Generated",
                       "Weight": 0.97
                     }
@@ -1808,6 +1880,68 @@
                   }
                 ]
               },
+              "v_Medidas_medida.crescimento_diamla": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Crescimento Dia-mla"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% crescimento dia-mla": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "% crescimento dia mla": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "percentage crescimento dia-mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  },
+                  {
+                    "percentage crescimento dia mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "pct crescimento dia-mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "pct crescimento dia mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              },
               "v_Medidas_medida.crescimento_hora": {
                 "Definition": {
                   "Binding": {
@@ -1896,6 +2030,68 @@
                   },
                   {
                     "pct crescimento hora kbi": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.crescimento_horamla": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Crescimento Hora-mla"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% crescimento hora-mla": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "% crescimento hora mla": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "percentage crescimento hora-mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  },
+                  {
+                    "percentage crescimento hora mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "pct crescimento hora-mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "pct crescimento hora mla": {
                       "Source": {
                         "Agent": "Thesaurus"
                       },
@@ -2004,6 +2200,68 @@
                   }
                 ]
               },
+              "v_Medidas_medida.crescimento_mesmla": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Crescimento Mes-mla"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% crescimento mes-mla": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "% crescimento mes mla": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "percentage crescimento me-mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  },
+                  {
+                    "percentage crescimento me mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "pct crescimento me-mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "pct crescimento me mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              },
               "v_Medidas_medida.crescimento_semana": {
                 "Definition": {
                   "Binding": {
@@ -2102,6 +2360,68 @@
                   }
                 ]
               },
+              "v_Medidas_medida.crescimento_semanamla": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Crescimento Semana-mla"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% crescimento semana-mla": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "% crescimento semana mla": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "percentage crescimento semana-mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  },
+                  {
+                    "percentage crescimento semana mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "pct crescimento semana-mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "pct crescimento semana mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              },
               "v_Medidas_medida.data_e_hora_do_último_processo": {
                 "Definition": {
                   "Binding": {
@@ -2147,6 +2467,28 @@
                   }
                 ]
               },
+              "v_Medidas_medida.entity__crescimento_coresmla": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "_Crescimento (Cores)-mla"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_crescimento (cores)-mla": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_crescimento (cores) mla": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
               "v_Medidas_medida.entity__crescimento_formatadokbi": {
                 "Definition": {
                   "Binding": {
@@ -2163,6 +2505,28 @@
                   },
                   {
                     "_crescimento (formatado) kbi": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.entity__crescimento_formatadomla": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "_Crescimento (Formatado)-mla"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_crescimento (formatado)-mla": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_crescimento (formatado) mla": {
                       "State": "Generated",
                       "Weight": 0.97
                     }
@@ -2201,6 +2565,38 @@
                   },
                   {
                     "qtde dias do último kbi": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "Qtde Dias Do Último": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.qtde_dias_do_últimomla": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "Qtde Dias Do Último-mla"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtde dias do último-mla": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtde dias do último mla": {
                       "State": "Generated",
                       "Weight": 0.97
                     }
@@ -2265,6 +2661,110 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.591
+                    }
+                  },
+                  {
+                    "%": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.qtde_linhasmla": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "Qtde Linhas-mla"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtde linhas-mla": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtde linhas mla": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "Qtde Linhas": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.qtde_linhasmla1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Qtde Linhas-mla"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% qtde linhas-mla": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "% qtde linhas mla": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "percentage qtde linha-mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  },
+                  {
+                    "percentage qtde linha mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "pct qtde linha-mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "pct qtde linha mla": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
                     }
                   },
                   {
@@ -2383,6 +2883,38 @@
                   },
                   {
                     "r$ est. economia kbi": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "R$ Est. Economia": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.r_est__economiamla": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "R$ Est. Economia-mla"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "r$ est. economia-mla": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "r$ est. economia mla": {
                       "State": "Generated",
                       "Weight": 0.97
                     }
@@ -2600,373 +3132,49 @@
                     }
                   }
                 ]
+              },
+              "v_Medidas_medida.último_processomla": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "Último Processo-mla"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "último processo-mla": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "último processo mla": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "Último Processo": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
               }
             },
             "Language": "en-US",
             "Relationships": {
-              "d_calendario_date_has_variation_hierarquia_de_data": {
-                "Binding": {
-                  "ConceptualEntity": "dCalendario"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data"
-                      },
-                      "Subject": {
-                        "Role": "d_calendario.date"
-                      }
-                    },
-                    "ID": "dates_have_hierarquia_de_data",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "d_calendario.date": {
-                    "Target": {
-                      "Entity": "d_calendario.date"
-                    }
-                  },
-                  "d_calendario.date.variation.hierarquia_de_data": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "d_calendario_date_variation_hierarquia_de_data_ano_has_d_calendario_date_variation_hierarquia_de_data_trimestre": {
-                "Binding": {
-                  "ConceptualEntity": "dCalendario"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
-                      },
-                      "Subject": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.ano"
-                      }
-                    },
-                    "ID": "anos_have_trimestres1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.ano"
-                      },
-                      "Subject": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
-                      }
-                    },
-                    "ID": "trimestres_have_anos1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "ID": "trimestres_are_in_anos",
-                    "Preposition": {
-                      "Object": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.ano"
-                      },
-                      "Prepositions": [
-                        {
-                          "in": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Subject": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
-                      }
-                    },
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "d_calendario.date.variation.hierarquia_de_data.ano": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data.ano"
-                    }
-                  },
-                  "d_calendario.date.variation.hierarquia_de_data.trimestre": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data.trimestre"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "d_calendario_date_variation_hierarquia_de_data_has_ano": {
-                "Binding": {
-                  "ConceptualEntity": "dCalendario"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.ano"
-                      },
-                      "Subject": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data"
-                      }
-                    },
-                    "ID": "hierarquia_de_data_have_anos1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "d_calendario.date.variation.hierarquia_de_data": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data"
-                    }
-                  },
-                  "d_calendario.date.variation.hierarquia_de_data.ano": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data.ano"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "d_calendario_date_variation_hierarquia_de_data_has_dia": {
-                "Binding": {
-                  "ConceptualEntity": "dCalendario"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.dia"
-                      },
-                      "Subject": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data"
-                      }
-                    },
-                    "ID": "hierarquia_de_data_have_dias1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "d_calendario.date.variation.hierarquia_de_data": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data"
-                    }
-                  },
-                  "d_calendario.date.variation.hierarquia_de_data.dia": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data.dia"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "d_calendario_date_variation_hierarquia_de_data_has_mê": {
-                "Binding": {
-                  "ConceptualEntity": "dCalendario"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
-                      },
-                      "Subject": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data"
-                      }
-                    },
-                    "ID": "hierarquia_de_data_have_mê1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "d_calendario.date.variation.hierarquia_de_data": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data"
-                    }
-                  },
-                  "d_calendario.date.variation.hierarquia_de_data.mê": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data.mê"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "d_calendario_date_variation_hierarquia_de_data_has_trimestre": {
-                "Binding": {
-                  "ConceptualEntity": "dCalendario"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
-                      },
-                      "Subject": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data"
-                      }
-                    },
-                    "ID": "hierarquia_de_data_have_trimestres1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "d_calendario.date.variation.hierarquia_de_data": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data"
-                    }
-                  },
-                  "d_calendario.date.variation.hierarquia_de_data.trimestre": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data.trimestre"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "d_calendario_date_variation_hierarquia_de_data_mê_has_d_calendario_date_variation_hierarquia_de_data_dia": {
-                "Binding": {
-                  "ConceptualEntity": "dCalendario"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.dia"
-                      },
-                      "Subject": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
-                      }
-                    },
-                    "ID": "mê_have_dias",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
-                      },
-                      "Subject": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.dia"
-                      }
-                    },
-                    "ID": "dias_have_mê",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "ID": "dias_are_in_mê",
-                    "Preposition": {
-                      "Object": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
-                      },
-                      "Prepositions": [
-                        {
-                          "in": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Subject": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.dia"
-                      }
-                    },
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "d_calendario.date.variation.hierarquia_de_data.dia": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data.dia"
-                    }
-                  },
-                  "d_calendario.date.variation.hierarquia_de_data.mê": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data.mê"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "d_calendario_date_variation_hierarquia_de_data_trimestre_has_d_calendario_date_variation_hierarquia_de_data_mê": {
-                "Binding": {
-                  "ConceptualEntity": "dCalendario"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
-                      },
-                      "Subject": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
-                      }
-                    },
-                    "ID": "trimestres_have_mê1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
-                      },
-                      "Subject": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
-                      }
-                    },
-                    "ID": "mê_have_trimestres1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "ID": "mê_are_in_trimestres",
-                    "Preposition": {
-                      "Object": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.trimestre"
-                      },
-                      "Prepositions": [
-                        {
-                          "in": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Subject": {
-                        "Role": "d_calendario.date.variation.hierarquia_de_data.mê"
-                      }
-                    },
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "d_calendario.date.variation.hierarquia_de_data.mê": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data.mê"
-                    }
-                  },
-                  "d_calendario.date.variation.hierarquia_de_data.trimestre": {
-                    "Target": {
-                      "Entity": "d_calendario.date.variation.hierarquia_de_data.trimestre"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
               "d_calendario_has_I_dano_eme": {
                 "Binding": {
                   "ConceptualEntity": "dCalendario"
@@ -3944,369 +4152,6 @@
                 },
                 "State": "Generated"
               },
-              "f_lancamento_quirius_lançado_quirius_ano_has_f_lancamento_quirius_lançado_quirius_trimestre": {
-                "Binding": {
-                  "ConceptualEntity": "fLancamentoQuirius"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.trimestre"
-                      },
-                      "Subject": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.ano"
-                      }
-                    },
-                    "ID": "anos_have_trimestres",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.ano"
-                      },
-                      "Subject": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.trimestre"
-                      }
-                    },
-                    "ID": "trimestres_have_anos",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "ID": "trimestres_are_in_anos1",
-                    "Preposition": {
-                      "Object": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.ano"
-                      },
-                      "Prepositions": [
-                        {
-                          "in": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Subject": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.trimestre"
-                      }
-                    },
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "f_lancamento_quirius.lançado_quirius.ano": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.ano"
-                    }
-                  },
-                  "f_lancamento_quirius.lançado_quirius.trimestre": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.trimestre"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "f_lancamento_quirius_lançado_quirius_has_hierarquia_de_data": {
-                "Binding": {
-                  "ConceptualEntity": "fLancamentoQuirius"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.hierarquia_de_data"
-                      },
-                      "Subject": {
-                        "Role": "f_lancamento_quirius.lançado_quirius"
-                      }
-                    },
-                    "ID": "lançado_quiriuses_have_hierarquia_de_data",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "f_lancamento_quirius.lançado_quirius": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius"
-                    }
-                  },
-                  "f_lancamento_quirius.lançado_quirius.hierarquia_de_data": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.hierarquia_de_data"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "f_lancamento_quirius_lançado_quirius_hierarquia_de_data_has_f_lancamento_quirius_lançado_quirius_ano": {
-                "Binding": {
-                  "ConceptualEntity": "fLancamentoQuirius"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.ano"
-                      },
-                      "Subject": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.hierarquia_de_data"
-                      }
-                    },
-                    "ID": "hierarquia_de_data_have_anos",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "f_lancamento_quirius.lançado_quirius.ano": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.ano"
-                    }
-                  },
-                  "f_lancamento_quirius.lançado_quirius.hierarquia_de_data": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.hierarquia_de_data"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "f_lancamento_quirius_lançado_quirius_hierarquia_de_data_has_f_lancamento_quirius_lançado_quirius_dia": {
-                "Binding": {
-                  "ConceptualEntity": "fLancamentoQuirius"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.dia"
-                      },
-                      "Subject": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.hierarquia_de_data"
-                      }
-                    },
-                    "ID": "hierarquia_de_data_have_dias",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "f_lancamento_quirius.lançado_quirius.dia": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.dia"
-                    }
-                  },
-                  "f_lancamento_quirius.lançado_quirius.hierarquia_de_data": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.hierarquia_de_data"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "f_lancamento_quirius_lançado_quirius_hierarquia_de_data_has_f_lancamento_quirius_lançado_quirius_mê": {
-                "Binding": {
-                  "ConceptualEntity": "fLancamentoQuirius"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.mê"
-                      },
-                      "Subject": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.hierarquia_de_data"
-                      }
-                    },
-                    "ID": "hierarquia_de_data_have_mê",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "f_lancamento_quirius.lançado_quirius.hierarquia_de_data": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.hierarquia_de_data"
-                    }
-                  },
-                  "f_lancamento_quirius.lançado_quirius.mê": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.mê"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "f_lancamento_quirius_lançado_quirius_hierarquia_de_data_has_f_lancamento_quirius_lançado_quirius_trimestre": {
-                "Binding": {
-                  "ConceptualEntity": "fLancamentoQuirius"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.trimestre"
-                      },
-                      "Subject": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.hierarquia_de_data"
-                      }
-                    },
-                    "ID": "hierarquia_de_data_have_trimestres",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "f_lancamento_quirius.lançado_quirius.hierarquia_de_data": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.hierarquia_de_data"
-                    }
-                  },
-                  "f_lancamento_quirius.lançado_quirius.trimestre": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.trimestre"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "f_lancamento_quirius_lançado_quirius_mê_has_f_lancamento_quirius_lançado_quirius_dia": {
-                "Binding": {
-                  "ConceptualEntity": "fLancamentoQuirius"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.dia"
-                      },
-                      "Subject": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.mê"
-                      }
-                    },
-                    "ID": "mê_have_dias1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.mê"
-                      },
-                      "Subject": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.dia"
-                      }
-                    },
-                    "ID": "dias_have_mê1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "ID": "dias_are_in_mê1",
-                    "Preposition": {
-                      "Object": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.mê"
-                      },
-                      "Prepositions": [
-                        {
-                          "in": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Subject": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.dia"
-                      }
-                    },
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "f_lancamento_quirius.lançado_quirius.dia": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.dia"
-                    }
-                  },
-                  "f_lancamento_quirius.lançado_quirius.mê": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.mê"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "f_lancamento_quirius_lançado_quirius_trimestre_has_f_lancamento_quirius_lançado_quirius_mê": {
-                "Binding": {
-                  "ConceptualEntity": "fLancamentoQuirius"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.mê"
-                      },
-                      "Subject": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.trimestre"
-                      }
-                    },
-                    "ID": "trimestres_have_mê",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.trimestre"
-                      },
-                      "Subject": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.mê"
-                      }
-                    },
-                    "ID": "mê_have_trimestres",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "ID": "mê_are_in_trimestres1",
-                    "Preposition": {
-                      "Object": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.trimestre"
-                      },
-                      "Prepositions": [
-                        {
-                          "in": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Subject": {
-                        "Role": "f_lancamento_quirius.lançado_quirius.mê"
-                      }
-                    },
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "f_lancamento_quirius.lançado_quirius.mê": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.mê"
-                    }
-                  },
-                  "f_lancamento_quirius.lançado_quirius.trimestre": {
-                    "Target": {
-                      "Entity": "f_lancamento_quirius.lançado_quirius.trimestre"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
               "fkms_rpa_otif_kbi_has_d_calendario": {
                 "Binding": {
                   "ConceptualEntity": "fkms_rpa_otif_kbi"
@@ -4749,9 +4594,524 @@
                 },
                 "State": "Generated"
               },
+              "kms_rpa_lancamento_mla_has_centro_de_custo": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_lancamento_mla.centro_de_custo"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have_centro_de_custos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  },
+                  "kms_rpa_lancamento_mla.centro_de_custo": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla.centro_de_custo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_lancamento_mla_has_codigo_doitem": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_lancamento_mla.codigo_doitem"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have_codigo_doitems",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  },
+                  "kms_rpa_lancamento_mla.codigo_doitem": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla.codigo_doitem"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_lancamento_mla_has_d_calendario": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have_d_calendarios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_kms_rpa_lancamento_mla",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario": {
+                    "Nouns": [
+                      {
+                        "data": {
+                          "State": "Generated"
+                        }
+                      }
+                    ],
+                    "Target": {
+                      "Entity": "d_calendario"
+                    }
+                  },
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_lancamento_mla_has_data": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_lancamento_mla.data"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  },
+                  "kms_rpa_lancamento_mla.data": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla.data"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_lancamento_mla_has_estabelecimento": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_lancamento_mla.estabelecimento"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have_estabelecimentos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  },
+                  "kms_rpa_lancamento_mla.estabelecimento": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla.estabelecimento"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_lancamento_mla_has_hora": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_lancamento_mla.hora"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have_horas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  },
+                  "kms_rpa_lancamento_mla.hora": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla.hora"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_lancamento_mla_has_log": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_lancamento_mla.log"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have_logs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  },
+                  "kms_rpa_lancamento_mla.log": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla.log"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_lancamento_mla_has_qtde_requisitada": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_lancamento_mla.qtde_requisitada"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have_qtde_requisitadas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  },
+                  "kms_rpa_lancamento_mla.qtde_requisitada": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla.qtde_requisitada"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_lancamento_mla_has_quantidade_delinhas_ordem": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_lancamento_mla.quantidade_delinhas_ordem"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have_quantidade_delinhas_ordems",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  },
+                  "kms_rpa_lancamento_mla.quantidade_delinhas_ordem": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla.quantidade_delinhas_ordem"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_lancamento_mla_has_unidade_de_negocio": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_lancamento_mla.unidade_de_negocio"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have_unidade_de_negocios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  },
+                  "kms_rpa_lancamento_mla.unidade_de_negocio": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla.unidade_de_negocio"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_lancamento_mla_has_v_Medidas_medida_qtde_linhasmla": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.qtde_linhasmla"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have_qtde_linhasmla",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  },
+                  "v_Medidas_medida.qtde_linhasmla": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.qtde_linhasmla"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_lancamento_mla_has_v_Medidas_medida_qtde_linhasmla1": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.qtde_linhasmla1"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have__qtde_linhasmla",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  },
+                  "v_Medidas_medida.qtde_linhasmla1": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.qtde_linhasmla1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_lancamento_mla_has_v_Medidas_medida_último_processomla": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.último_processomla"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have_último_processomla",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  },
+                  "v_Medidas_medida.último_processomla": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.último_processomla"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_lancamento_mla_has_valor_simbolico": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_lancamento_mla.valor_simbolico"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have_valor_simbolicos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  },
+                  "kms_rpa_lancamento_mla.valor_simbolico": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla.valor_simbolico"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "parametrocomprasMLA_has_parâmetro": {
+                "Binding": {
+                  "ConceptualEntity": "Parametro-Compras-MLA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "parametrocomprasMLA.parâmetro"
+                      },
+                      "Subject": {
+                        "Role": "parametrocomprasMLA"
+                      }
+                    },
+                    "ID": "parametrocomprasMLA_have_parâmetros",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "parametrocomprasMLA": {
+                    "Target": {
+                      "Entity": "parametrocomprasMLA"
+                    }
+                  },
+                  "parametrocomprasMLA.parâmetro": {
+                    "Target": {
+                      "Entity": "parametrocomprasMLA.parâmetro"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "parâmetro_2_has_parâmetro": {
                 "Binding": {
-                  "ConceptualEntity": "Parâmetro 2"
+                  "ConceptualEntity": "Parametro-Compras-KBI"
                 },
                 "Phrasings": [
                   {
@@ -4763,7 +5123,7 @@
                         "Role": "parâmetro_2"
                       }
                     },
-                    "ID": "parâmetro_2_have_parâmetros",
+                    "ID": "parametrocomprasKBIs_have_parâmetros",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4784,7 +5144,7 @@
               },
               "parâmetro_has_parâmetro": {
                 "Binding": {
-                  "ConceptualEntity": "Parâmetro"
+                  "ConceptualEntity": "Parametro-Fiscal-Fretes"
                 },
                 "Phrasings": [
                   {
@@ -4796,20 +5156,7 @@
                         "Role": "parâmetro"
                       }
                     },
-                    "ID": "parâmetros_have_parâmetros",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "ID": "parâmetros_are_names_IDs_of_parâmetros",
-                    "Name": {
-                      "Name": {
-                        "Role": "parâmetro.parâmetro"
-                      },
-                      "Subject": {
-                        "Role": "parâmetro"
-                      }
-                    },
+                    "ID": "parametrofiscalfretes_have_parâmetros",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4823,6 +5170,39 @@
                   "parâmetro.parâmetro": {
                     "Target": {
                       "Entity": "parâmetro.parâmetro"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Medidas_medida_has_HS_economiamla": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.HS_economiamla"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have_HS_economiamla",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.HS_economiamla": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.HS_economiamla"
                     }
                   }
                 },
@@ -4894,6 +5274,39 @@
                 },
                 "State": "Generated"
               },
+              "v_Medidas_medida_has_crescimento_diamla": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.crescimento_diamla"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_diamla",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.crescimento_diamla": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.crescimento_diamla"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "v_Medidas_medida_has_crescimento_hora": {
                 "Binding": {
                   "ConceptualEntity": "_Medidas"
@@ -4955,6 +5368,39 @@
                   "v_Medidas_medida.crescimento_horakbi": {
                     "Target": {
                       "Entity": "v_Medidas_medida.crescimento_horakbi"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Medidas_medida_has_crescimento_horamla": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.crescimento_horamla"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_horamla",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.crescimento_horamla": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.crescimento_horamla"
                     }
                   }
                 },
@@ -5026,6 +5472,39 @@
                 },
                 "State": "Generated"
               },
+              "v_Medidas_medida_has_crescimento_mesmla": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.crescimento_mesmla"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_mesmla",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.crescimento_mesmla": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.crescimento_mesmla"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "v_Medidas_medida_has_crescimento_semana": {
                 "Binding": {
                   "ConceptualEntity": "_Medidas"
@@ -5092,6 +5571,39 @@
                 },
                 "State": "Generated"
               },
+              "v_Medidas_medida_has_crescimento_semanamla": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.crescimento_semanamla"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_semanamla",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.crescimento_semanamla": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.crescimento_semanamla"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "v_Medidas_medida_has_entity__crescimento_coreskbi": {
                 "Binding": {
                   "ConceptualEntity": "_Medidas"
@@ -5125,6 +5637,39 @@
                 },
                 "State": "Generated"
               },
+              "v_Medidas_medida_has_entity__crescimento_coresmla": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.entity__crescimento_coresmla"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_coresmla",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.entity__crescimento_coresmla": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.entity__crescimento_coresmla"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "v_Medidas_medida_has_entity__crescimento_formatadokbi": {
                 "Binding": {
                   "ConceptualEntity": "_Medidas"
@@ -5153,6 +5698,39 @@
                   "v_Medidas_medida.entity__crescimento_formatadokbi": {
                     "Target": {
                       "Entity": "v_Medidas_medida.entity__crescimento_formatadokbi"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Medidas_medida_has_entity__crescimento_formatadomla": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.entity__crescimento_formatadomla"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_formatadomla",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.entity__crescimento_formatadomla": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.entity__crescimento_formatadomla"
                     }
                   }
                 },
@@ -5219,6 +5797,72 @@
                   "v_Medidas_medida.qtde_dias_do_últimokbi": {
                     "Target": {
                       "Entity": "v_Medidas_medida.qtde_dias_do_últimokbi"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Medidas_medida_has_qtde_dias_do_últimomla": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.qtde_dias_do_últimomla"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have_qtde_dias_do_últimomla",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.qtde_dias_do_últimomla": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.qtde_dias_do_últimomla"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Medidas_medida_has_r_est__economiamla": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.r_est__economiamla"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have_r_est__economiamla",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.r_est__economiamla": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.r_est__economiamla"
                     }
                   }
                 },
@@ -5304,22 +5948,6 @@
     "defaultPowerBIDataSourceVersion": "powerBI_V3",
     "relationships": [
       {
-        "name": "26414c7e-8921-4089-b5c5-853b11d77641",
-        "fromColumn": "Lançado Quirius",
-        "fromTable": "fLancamentoQuirius",
-        "joinOnDateBehavior": "datePartOnly",
-        "toColumn": "Date",
-        "toTable": "LocalDateTable_2444c19a-b7a0-4d4c-8a2b-eebc82084acc"
-      },
-      {
-        "name": "7bd1ebf8-0b6b-4a28-8b9c-b4748022ecc1",
-        "fromColumn": "Date",
-        "fromTable": "dCalendario",
-        "joinOnDateBehavior": "datePartOnly",
-        "toColumn": "Date",
-        "toTable": "LocalDateTable_9e933f3c-1719-47c5-a911-7812a625a499"
-      },
-      {
         "name": "705070dc-0232-5634-103b-ae6f3ec16f1a",
         "fromColumn": "Data",
         "fromTable": "fLancamentoQuirius",
@@ -5332,215 +5960,17 @@
         "fromTable": "fkms_rpa_otif_kbi",
         "toColumn": "Date",
         "toTable": "dCalendario"
+      },
+      {
+        "name": "78ccf1d6-a36e-56df-c34f-6f2a85e4b874",
+        "fromColumn": "Data",
+        "fromTable": "kms_rpa_lancamento_mla",
+        "toColumn": "Date",
+        "toTable": "dCalendario"
       }
     ],
     "sourceQueryCulture": "pt-BR",
     "tables": [
-      {
-        "name": "DateTableTemplate_aa80d22a-e63b-46d3-9983-9079862d7056",
-        "annotations": [
-          {
-            "name": "__PBI_TemplateDateTable",
-            "value": "true"
-          },
-          {
-            "name": "DefaultItem",
-            "value": "DateHierarchy"
-          }
-        ],
-        "columns": [
-          {
-            "name": "Date",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              }
-            ],
-            "dataCategory": "PaddedDateTableDates",
-            "dataType": "dateTime",
-            "isHidden": true,
-            "isNameInferred": true,
-            "lineageTag": "91c7a302-aa7a-4dbe-aa05-7eec9ce01451",
-            "sourceColumn": "[Date]",
-            "summarizeBy": "none",
-            "type": "calculatedTableColumn"
-          },
-          {
-            "name": "Ano",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Year"
-              }
-            ],
-            "dataCategory": "Years",
-            "dataType": "int64",
-            "expression": "YEAR([Date])",
-            "isHidden": true,
-            "lineageTag": "1cbafbb6-7fe8-42c5-9bcc-d4e276b066e4",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "MonthNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "MonthNumber"
-              }
-            ],
-            "dataCategory": "MonthOfYear",
-            "dataType": "int64",
-            "expression": "MONTH([Date])",
-            "isHidden": true,
-            "lineageTag": "0ee48834-e183-449c-8bb0-e89d4df98448",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Mês",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Month"
-              }
-            ],
-            "dataCategory": "Months",
-            "dataType": "string",
-            "expression": "FORMAT([Date], \"MMMM\")",
-            "isHidden": true,
-            "lineageTag": "227f0034-685b-4a7a-ac20-c359fe177c46",
-            "sortByColumn": "MonthNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "QuarterNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "QuarterNumber"
-              }
-            ],
-            "dataCategory": "QuarterOfYear",
-            "dataType": "int64",
-            "expression": "INT(([MonthNo] + 2) / 3)",
-            "isHidden": true,
-            "lineageTag": "49b86044-39b4-4900-96cb-2491afd33d78",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Trimestre",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Quarter"
-              }
-            ],
-            "dataCategory": "Quarters",
-            "dataType": "string",
-            "expression": "\"Trim \" & [QuarterNo]",
-            "isHidden": true,
-            "lineageTag": "6976f4fe-05a3-4cc9-a90d-94e773f653e7",
-            "sortByColumn": "QuarterNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Dia",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Day"
-              }
-            ],
-            "dataCategory": "DayOfMonth",
-            "dataType": "int64",
-            "expression": "DAY([Date])",
-            "isHidden": true,
-            "lineageTag": "8a1343fb-47d9-4010-b467-bcf6f73395f6",
-            "summarizeBy": "none",
-            "type": "calculated"
-          }
-        ],
-        "hierarchies": [
-          {
-            "name": "Hierarquia de datas",
-            "annotations": [
-              {
-                "name": "TemplateId",
-                "value": "DateHierarchy"
-              }
-            ],
-            "levels": [
-              {
-                "name": "Ano",
-                "column": "Ano",
-                "lineageTag": "5f400369-aeb6-4149-979c-65e9b6ecf7de",
-                "ordinal": 0
-              },
-              {
-                "name": "Trimestre",
-                "column": "Trimestre",
-                "lineageTag": "535717f4-00d5-44e0-8440-3185d71a7787",
-                "ordinal": 1
-              },
-              {
-                "name": "Mês",
-                "column": "Mês",
-                "lineageTag": "c0271973-b63f-4459-9908-a004f17d34a3",
-                "ordinal": 2
-              },
-              {
-                "name": "Dia",
-                "column": "Dia",
-                "lineageTag": "081d4344-5151-4196-909b-7ab838228b5e",
-                "ordinal": 3
-              }
-            ],
-            "lineageTag": "86dd8ce4-5bc6-42d5-8fc6-a95cc32c3ab8"
-          }
-        ],
-        "isHidden": true,
-        "isPrivate": true,
-        "lineageTag": "7e302f1a-87e1-476a-baee-8908f533fd92",
-        "partitions": [
-          {
-            "name": "DateTableTemplate_aa80d22a-e63b-46d3-9983-9079862d7056",
-            "mode": "import",
-            "source": {
-              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
-              "type": "calculated"
-            }
-          }
-        ]
-      },
       {
         "name": "_Medidas",
         "annotations": [
@@ -5934,8 +6364,15 @@
           },
           {
             "name": "R$ Est. Economia-kbi",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isCustom\":true}"
+              }
+            ],
             "displayFolder": "Robo Compras - OTIF KBI",
             "expression": "sum(fkms_rpa_otif_kbi[estimativa_dinheiro_economizado])",
+            "formatString": "R$ #,#0.00",
             "lineageTag": "4ea6d631-a864-476e-bf5d-d6a9793dea1e"
           },
           {
@@ -5961,10 +6398,10 @@
             "name": "% Qtde Linhas",
             "displayFolder": "Robo Compras - OTIF KBI",
             "expression": [
-              "DIVIDE (\r",
-              "    [Qtde Linhas],\r",
-              "    CALCULATE ( [Qtde Linhas], ALL ( fkms_rpa_otif_kbi ) ),\r",
-              "    0\r",
+              "DIVIDE (",
+              "    [Qtde Linhas],",
+              "    CALCULATE ( [Qtde Linhas], ALL ( fkms_rpa_otif_kbi ) ),",
+              "    0",
               ")"
             ],
             "formatString": "0.00%;-0.00%;0.00%",
@@ -6125,6 +6562,219 @@
               ")"
             ],
             "lineageTag": "7532e8f9-66e5-4daa-bf35-b2ff522e33f8"
+          },
+          {
+            "name": "Qtde Linhas-mla",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDecimal\":true}"
+              }
+            ],
+            "displayFolder": "Robo Compras - MLA",
+            "expression": "countrows(kms_rpa_lancamento_mla)",
+            "formatString": "#,0",
+            "lineageTag": "e01c457d-4940-4c75-a62c-493404265cec"
+          },
+          {
+            "name": "(HS) Economia-mla",
+            "displayFolder": "Robo Compras - MLA",
+            "expression": "COUNTROWS( DISTINCT(kms_rpa_lancamento_mla[Data]) ) * 2",
+            "formatString": "0",
+            "lineageTag": "0c05f968-52b9-4fd8-ba88-a3c5045c92b1"
+          },
+          {
+            "name": "R$ Est. Economia-mla",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isCustom\":true}"
+              }
+            ],
+            "displayFolder": "Robo Compras - MLA",
+            "expression": "[(HS) Economia-mla] * 20",
+            "formatString": "R$ #,#0.00",
+            "lineageTag": "5bd979b7-ff6f-48bb-8940-f1f30b00b921"
+          },
+          {
+            "name": "Último Processo-mla",
+            "displayFolder": "Robo Compras - MLA",
+            "expression": "max(kms_rpa_lancamento_mla[Data])",
+            "lineageTag": "abf5182b-2a3d-43d5-8b23-cf70490199b7"
+          },
+          {
+            "name": "Qtde Dias Do Último-mla",
+            "displayFolder": "Robo Compras - MLA",
+            "expression": "DATEDIFF([Último Processo-mla], NOW(), DAY)",
+            "lineageTag": "028b15bd-7684-4090-98a5-ac9ece8de14a"
+          },
+          {
+            "name": "% Qtde Linhas-mla",
+            "displayFolder": "Robo Compras - MLA",
+            "expression": [
+              "DIVIDE (",
+              "    [Qtde Linhas-mla],",
+              "    CALCULATE ( [Qtde Linhas-mla], REMOVEFILTERS ( 'kms_rpa_lancamento_mla' ) ),",
+              "    0",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "bc5a8540-f419-460b-984e-5ce7a488df2d"
+          },
+          {
+            "name": "% Crescimento Hora-mla",
+            "displayFolder": "Robo Compras - MLA",
+            "expression": [
+              "VAR UltimaDataHora =",
+              "    CALCULATE (",
+              "        MAX ( kms_rpa_lancamento_mla[Hora] ),",
+              "        FILTER (",
+              "            ALL ( kms_rpa_lancamento_mla ),",
+              "            kms_rpa_lancamento_mla[Hora] < MAX ( kms_rpa_lancamento_mla[Hora] )",
+              "                && NOT ( ISBLANK ( [Qtde Linhas-mla] ) )",
+              "        )",
+              "    )",
+              "VAR QtdeUltimaHora =",
+              "    CALCULATE ( [Qtde Linhas-mla], kms_rpa_lancamento_mla[Hora] = UltimaDataHora )",
+              "VAR QtdeAtual = [Qtde Linhas-mla]",
+              "RETURN",
+              "    IF (",
+              "        NOT ISBLANK ( QtdeUltimaHora ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimaHora, QtdeUltimaHora, 0 ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "lineageTag": "7dcfd38e-4220-40ff-9bae-a2af5fc697d1"
+          },
+          {
+            "name": "% Crescimento Dia-mla",
+            "displayFolder": "Robo Compras - MLA",
+            "expression": [
+              "VAR UltimaData =",
+              "    CALCULATE (",
+              "        MAX ( dCalendario[Date] ),",
+              "        FILTER (",
+              "            ALL ( dCalendario ),",
+              "            dCalendario[Date] < MAX ( dCalendario[Date] )",
+              "                && NOT ( ISBLANK ( [Qtde Linhas-mla] ) )",
+              "        )",
+              "    )",
+              "VAR QtdeUltimaData =",
+              "    CALCULATE ( [Qtde Linhas-mla], dCalendario[Date] = UltimaData )",
+              "VAR QtdeAtual = [Qtde Linhas-mla]",
+              "RETURN",
+              "    IF (",
+              "        NOT ISBLANK ( QtdeUltimaData ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimaData, QtdeUltimaData, 0 ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "lineageTag": "e79d8084-a25f-4567-8544-bf9d7e10035d"
+          },
+          {
+            "name": "% Crescimento Semana-mla",
+            "displayFolder": "Robo Compras - MLA",
+            "expression": [
+              "VAR UltimaSemana =",
+              "    CALCULATE (",
+              "        MAX ( dCalendario[Date] ),",
+              "        FILTER (",
+              "            ALL ( dCalendario ),",
+              "            dCalendario[Date] < MAX ( dCalendario[Date] )",
+              "                && WEEKNUM ( dCalendario[Date], 2 ) < WEEKNUM ( MAX ( dCalendario[Date] ), 2 )",
+              "                && NOT ( ISBLANK ( [Qtde Linhas-mla] ) )",
+              "        )",
+              "    )",
+              "VAR QtdeUltimaSemana =",
+              "    CALCULATE ( [Qtde Linhas-mla], dCalendario[Date] = UltimaSemana )",
+              "VAR QtdeAtual = [Qtde Linhas-mla]",
+              "RETURN",
+              "    IF (",
+              "        NOT ISBLANK ( QtdeUltimaSemana ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimaSemana, QtdeUltimaSemana, 0 ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "lineageTag": "52d962c4-f4fc-4cd0-8674-3da51dbed928"
+          },
+          {
+            "name": "% Crescimento Mes-mla",
+            "displayFolder": "Robo Compras - MLA",
+            "expression": [
+              "VAR UltimoMes =",
+              "    MONTH(CALCULATE (",
+              "        MAX ( dCalendario[Date] ),",
+              "        FILTER (",
+              "            ALL ( dCalendario ),",
+              "            dCalendario[Date] < MAX ( dCalendario[Date] )",
+              "                && MONTH ( dCalendario[Date] ) < MONTH ( MAX ( dCalendario[Date] ) )",
+              "                && YEAR ( dCalendario[Date] ) = YEAR ( MAX ( dCalendario[Date] ) )",
+              "                && NOT ( ISBLANK ( [Qtde Linhas-mla] ) )",
+              "        )",
+              "    ))",
+              "    ",
+              "VAR QtdeUltimoMes =",
+              "    CALCULATE ( [Qtde Linhas-mla], MONTH(dCalendario[Date]) = UltimoMes )",
+              "VAR QtdeAtual = [Qtde Linhas-mla]",
+              "",
+              "VAR _Resultado =     IF (",
+              "        NOT ISBLANK ( QtdeUltimoMes ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimoMes, QtdeUltimoMes, 0 ),",
+              "        BLANK ()",
+              "    )",
+              "RETURN _Resultado"
+            ],
+            "lineageTag": "8f402f45-a61f-493d-94c7-a2a1ba8913fd"
+          },
+          {
+            "name": "_Crescimento (Formatado)-mla",
+            "displayFolder": "Robo Compras - MLA",
+            "expression": [
+              "SWITCH (",
+              "    TRUE (),",
+              "    ISINSCOPE ( kms_rpa_lancamento_mla[Hora] ),",
+              "        IF (",
+              "            [% Crescimento Hora-mla] > 0,",
+              "            FORMAT ( [% Crescimento Hora-mla], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Hora-mla], \"∇ 0%\" )",
+              "        ),",
+              "    ISINSCOPE ( dCalendario[Dia] ),",
+              "        IF (",
+              "            [% Crescimento Dia] > 0,",
+              "            FORMAT ( [% Crescimento Dia-mla], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Dia-mla], \"∇ 0%\" )",
+              "        ),",
+              "    ISINSCOPE ( dCalendario[Semana] ),",
+              "        IF (",
+              "            [% Crescimento Semana-mla] > 0,",
+              "            FORMAT ( [% Crescimento Semana-mla], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Semana-mla], \"∇ 0%\" )",
+              "        ),",
+              "    ISINSCOPE ( dCalendario[Mes] ),",
+              "        IF (",
+              "            [% Crescimento Mes-mla] > 0,",
+              "            FORMAT ( [% Crescimento Mes-mla], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Mes-mla], \"∇ 0%\" )",
+              "        ),",
+              "    BLANK ()",
+              ")"
+            ],
+            "lineageTag": "b386d73e-189f-492a-bbc0-1e0588f9e378"
+          },
+          {
+            "name": "_Crescimento (Cores)-mla",
+            "displayFolder": "Robo Compras - MLA",
+            "expression": [
+              "SWITCH (",
+              "    TRUE (),",
+              "    ISINSCOPE ( kms_rpa_lancamento_mla[Hora] ), IF ( [% Crescimento Hora-mla] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    ISINSCOPE ( dCalendario[Dia] ), IF ( [% Crescimento Dia-mla] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    ISINSCOPE ( dCalendario[Semana] ), IF ( [% Crescimento Semana-mla] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    ISINSCOPE ( dCalendario[Mes] ), IF ( [% Crescimento Mes-mla] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    BLANK ()",
+              ")"
+            ],
+            "lineageTag": "97a2f7ac-119e-48a1-8794-bee48ed5433b"
           }
         ],
         "partitions": [
@@ -6166,18 +6816,7 @@
             "lineageTag": "0884b860-517a-4922-a41f-f6cd6ba3f774",
             "sourceColumn": "[Date]",
             "summarizeBy": "none",
-            "type": "calculatedTableColumn",
-            "variations": [
-              {
-                "name": "Variation",
-                "defaultHierarchy": {
-                  "hierarchy": "Hierarquia de datas",
-                  "table": "LocalDateTable_9e933f3c-1719-47c5-a911-7812a625a499"
-                },
-                "isDefault": true,
-                "relationship": "7bd1ebf8-0b6b-4a28-8b9c-b4748022ecc1"
-              }
-            ]
+            "type": "calculatedTableColumn"
           },
           {
             "name": "Ano",
@@ -6430,18 +7069,7 @@
             "formatString": "General Date",
             "lineageTag": "4b4ed59d-1e70-4333-891d-7b420c115c3d",
             "sourceColumn": "Lançado Quirius",
-            "summarizeBy": "none",
-            "variations": [
-              {
-                "name": "Variation",
-                "defaultHierarchy": {
-                  "hierarchy": "Hierarquia de datas",
-                  "table": "LocalDateTable_2444c19a-b7a0-4d4c-8a2b-eebc82084acc"
-                },
-                "isDefault": true,
-                "relationship": "26414c7e-8921-4089-b5c5-853b11d77641"
-              }
-            ]
+            "summarizeBy": "none"
           },
           {
             "name": "Ordem",
@@ -6679,208 +7307,7 @@
         ]
       },
       {
-        "name": "LocalDateTable_2444c19a-b7a0-4d4c-8a2b-eebc82084acc",
-        "annotations": [
-          {
-            "name": "__PBI_LocalDateTable",
-            "value": "true"
-          }
-        ],
-        "columns": [
-          {
-            "name": "Date",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              }
-            ],
-            "dataCategory": "PaddedDateTableDates",
-            "dataType": "dateTime",
-            "isHidden": true,
-            "isNameInferred": true,
-            "lineageTag": "4c0833aa-fe45-4fd2-a3e3-34bf393bfb50",
-            "sourceColumn": "[Date]",
-            "summarizeBy": "none",
-            "type": "calculatedTableColumn"
-          },
-          {
-            "name": "Ano",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Year"
-              }
-            ],
-            "dataCategory": "Years",
-            "dataType": "int64",
-            "expression": "YEAR([Date])",
-            "isHidden": true,
-            "lineageTag": "f72d7fe0-9bcb-49bd-aa4f-64048de4a0f2",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "MonthNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "MonthNumber"
-              }
-            ],
-            "dataCategory": "MonthOfYear",
-            "dataType": "int64",
-            "expression": "MONTH([Date])",
-            "isHidden": true,
-            "lineageTag": "57573388-79e3-48d4-b319-da95071fde66",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Mês",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Month"
-              }
-            ],
-            "dataCategory": "Months",
-            "dataType": "string",
-            "expression": "FORMAT([Date], \"MMMM\")",
-            "isHidden": true,
-            "lineageTag": "69ffbdcd-fb49-4489-8b12-40a24be06526",
-            "sortByColumn": "MonthNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "QuarterNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "QuarterNumber"
-              }
-            ],
-            "dataCategory": "QuarterOfYear",
-            "dataType": "int64",
-            "expression": "INT(([MonthNo] + 2) / 3)",
-            "isHidden": true,
-            "lineageTag": "d90730d6-0662-4280-bb53-efe2dbdb15c2",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Trimestre",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Quarter"
-              }
-            ],
-            "dataCategory": "Quarters",
-            "dataType": "string",
-            "expression": "\"Trim \" & [QuarterNo]",
-            "isHidden": true,
-            "lineageTag": "9f3dc66b-d859-4dbe-9772-667789508582",
-            "sortByColumn": "QuarterNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Dia",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Day"
-              }
-            ],
-            "dataCategory": "DayOfMonth",
-            "dataType": "int64",
-            "expression": "DAY([Date])",
-            "isHidden": true,
-            "lineageTag": "651fe6ec-d9ba-49b4-b00b-78c1c59bda10",
-            "summarizeBy": "none",
-            "type": "calculated"
-          }
-        ],
-        "hierarchies": [
-          {
-            "name": "Hierarquia de datas",
-            "annotations": [
-              {
-                "name": "TemplateId",
-                "value": "DateHierarchy"
-              }
-            ],
-            "levels": [
-              {
-                "name": "Ano",
-                "column": "Ano",
-                "lineageTag": "ec77e3bd-4035-406b-a1fa-30ba175bfdda",
-                "ordinal": 0
-              },
-              {
-                "name": "Trimestre",
-                "column": "Trimestre",
-                "lineageTag": "e304f7c4-8d98-4024-8ca8-723d6fe910bc",
-                "ordinal": 1
-              },
-              {
-                "name": "Mês",
-                "column": "Mês",
-                "lineageTag": "20f25e12-4f09-4a47-850d-c2c07f5498b8",
-                "ordinal": 2
-              },
-              {
-                "name": "Dia",
-                "column": "Dia",
-                "lineageTag": "8407a262-62cb-495e-aa3a-bfbc0039b944",
-                "ordinal": 3
-              }
-            ],
-            "lineageTag": "a6b88e9e-7c85-46e5-9916-c717684ec939"
-          }
-        ],
-        "isHidden": true,
-        "lineageTag": "e9c50e0b-1b97-4e8b-9c0f-30e76b6250b5",
-        "partitions": [
-          {
-            "name": "LocalDateTable_2444c19a-b7a0-4d4c-8a2b-eebc82084acc",
-            "mode": "import",
-            "source": {
-              "expression": "Calendar(Date(Year(MIN('fLancamentoQuirius'[Lançado Quirius])), 1, 1), Date(Year(MAX('fLancamentoQuirius'[Lançado Quirius])), 12, 31))",
-              "type": "calculated"
-            }
-          }
-        ],
-        "showAsVariationsOnly": true
-      },
-      {
-        "name": "Parâmetro",
+        "name": "Parametro-Fiscal-Fretes",
         "annotations": [
           {
             "name": "PBI_Id",
@@ -6962,7 +7389,7 @@
         "lineageTag": "457bce80-0361-4006-a1c8-c59b1cfa32a0",
         "partitions": [
           {
-            "name": "Parâmetro",
+            "name": "Parametro-Fiscal-Fretes",
             "mode": "import",
             "source": {
               "expression": [
@@ -7120,208 +7547,7 @@
         ]
       },
       {
-        "name": "LocalDateTable_9e933f3c-1719-47c5-a911-7812a625a499",
-        "annotations": [
-          {
-            "name": "__PBI_LocalDateTable",
-            "value": "true"
-          }
-        ],
-        "columns": [
-          {
-            "name": "Date",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              }
-            ],
-            "dataCategory": "PaddedDateTableDates",
-            "dataType": "dateTime",
-            "isHidden": true,
-            "isNameInferred": true,
-            "lineageTag": "76341eec-7089-48f6-a89a-55c625bcaac4",
-            "sourceColumn": "[Date]",
-            "summarizeBy": "none",
-            "type": "calculatedTableColumn"
-          },
-          {
-            "name": "Ano",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Year"
-              }
-            ],
-            "dataCategory": "Years",
-            "dataType": "int64",
-            "expression": "YEAR([Date])",
-            "isHidden": true,
-            "lineageTag": "9cb2df1b-6e9a-4795-bfaf-7cceaae3f79c",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "MonthNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "MonthNumber"
-              }
-            ],
-            "dataCategory": "MonthOfYear",
-            "dataType": "int64",
-            "expression": "MONTH([Date])",
-            "isHidden": true,
-            "lineageTag": "e94ec799-5355-49b4-8074-cf8d26e36d4c",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Mês",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Month"
-              }
-            ],
-            "dataCategory": "Months",
-            "dataType": "string",
-            "expression": "FORMAT([Date], \"MMMM\")",
-            "isHidden": true,
-            "lineageTag": "b8300567-c303-422d-9da6-1ff1af3772c5",
-            "sortByColumn": "MonthNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "QuarterNo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "QuarterNumber"
-              }
-            ],
-            "dataCategory": "QuarterOfYear",
-            "dataType": "int64",
-            "expression": "INT(([MonthNo] + 2) / 3)",
-            "isHidden": true,
-            "lineageTag": "46ab48a9-1ada-4ea8-8cc9-215e64b96994",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Trimestre",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Quarter"
-              }
-            ],
-            "dataCategory": "Quarters",
-            "dataType": "string",
-            "expression": "\"Trim \" & [QuarterNo]",
-            "isHidden": true,
-            "lineageTag": "282df398-89aa-4757-b6b1-17ed8c6b52b8",
-            "sortByColumn": "QuarterNo",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Dia",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Day"
-              }
-            ],
-            "dataCategory": "DayOfMonth",
-            "dataType": "int64",
-            "expression": "DAY([Date])",
-            "isHidden": true,
-            "lineageTag": "9e108d26-2b5c-46ab-869e-bb0c0806d6d4",
-            "summarizeBy": "none",
-            "type": "calculated"
-          }
-        ],
-        "hierarchies": [
-          {
-            "name": "Hierarquia de datas",
-            "annotations": [
-              {
-                "name": "TemplateId",
-                "value": "DateHierarchy"
-              }
-            ],
-            "levels": [
-              {
-                "name": "Ano",
-                "column": "Ano",
-                "lineageTag": "a6783b17-f18d-4ad8-8fa1-3c6114055efd",
-                "ordinal": 0
-              },
-              {
-                "name": "Trimestre",
-                "column": "Trimestre",
-                "lineageTag": "c7abbb3a-af14-4084-ace9-b64b3c88071c",
-                "ordinal": 1
-              },
-              {
-                "name": "Mês",
-                "column": "Mês",
-                "lineageTag": "abe8a326-fa8d-4fa0-b3e2-da6d348fde13",
-                "ordinal": 2
-              },
-              {
-                "name": "Dia",
-                "column": "Dia",
-                "lineageTag": "d368592c-f21a-4d33-bacb-be5909ffa663",
-                "ordinal": 3
-              }
-            ],
-            "lineageTag": "8ed97173-4707-4dce-b661-9aba772105a8"
-          }
-        ],
-        "isHidden": true,
-        "lineageTag": "4e1bf909-84e1-4a59-ab72-daaabc88da64",
-        "partitions": [
-          {
-            "name": "LocalDateTable_9e933f3c-1719-47c5-a911-7812a625a499",
-            "mode": "import",
-            "source": {
-              "expression": "Calendar(Date(Year(MIN('dCalendario'[Date])), 1, 1), Date(Year(MAX('dCalendario'[Date])), 12, 31))",
-              "type": "calculated"
-            }
-          }
-        ],
-        "showAsVariationsOnly": true
-      },
-      {
-        "name": "Parâmetro 2",
+        "name": "Parametro-Compras-KBI",
         "annotations": [
           {
             "name": "PBI_Id",
@@ -7403,13 +7629,290 @@
         "lineageTag": "6f8745ed-acf6-479f-b7d5-9b4cd6f22014",
         "partitions": [
           {
-            "name": "Parâmetro 2",
+            "name": "Parametro-Compras-KBI",
             "mode": "import",
             "source": {
               "expression": [
                 "{",
                 "    (\"(HS) Economia\", NAMEOF('_Medidas'[(HS) Economia-kbi]), 0),",
                 "    (\"R$ Est. Economia\", NAMEOF('_Medidas'[R$ Est. Economia-kbi]), 1)",
+                "}"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "kms_rpa_lancamento_mla",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Estabelecimento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ddd63578-20ee-4f60-aa08-6aa0f6ae6c64",
+            "sourceColumn": "Estabelecimento",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CodigoDoitem",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f2bd6a30-c946-447f-b0f3-18d8eb772e3f",
+            "sourceColumn": "CodigoDoitem",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CentroDeCusto",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "941e7461-4431-4744-82c9-c9ee3132f5e4",
+            "sourceColumn": "CentroDeCusto",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ValorSimbolico",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "46f663bf-985e-4e6d-850f-09af555d8edf",
+            "sourceColumn": "ValorSimbolico",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "QtdeRequisitada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "91c092e3-07ab-46bf-b259-ca15bf05543c",
+            "sourceColumn": "QtdeRequisitada",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "QuantidadeDelinhasOrdem",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "009a4b95-1861-46cc-8085-bc2a6e0bc696",
+            "sourceColumn": "QuantidadeDelinhasOrdem",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "UnidadeDeNegocio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7f45f6f8-eccd-4d07-a0fd-d9d09c234486",
+            "sourceColumn": "UnidadeDeNegocio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Log",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "6cfbcde0-40eb-4f56-986c-c27b1da62221",
+            "sourceColumn": "Log",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Data",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "6336eb47-cd13-40cf-a91c-4cbe76f90c4c",
+            "sourceColumn": "Data",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Hora",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "ce2a7139-8114-4944-a72b-69a8fe5f89c8",
+            "sourceColumn": "Hora",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "822ac9b3-7841-4b0b-952a-cd74d84c1c5f",
+        "partitions": [
+          {
+            "name": "kms_rpa_lancamento_mla",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"\\\\brpin-inf012\\Trabalho\\Log\\Supri\\ROBO MLA\\Planilha Robo.xlsx\"), null, true),",
+                "    Sheet1_Sheet = Fonte{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"Estabelecimento\", type text}, {\"CodigoDoitem\", type text}, {\"CentroDeCusto\", type text}, {\"ValorSimbolico\", Int64.Type}, {\"QtdeRequisitada\", Int64.Type}, {\"QuantidadeDelinhasOrdem\", Int64.Type}, {\"UnidadeDeNegocio\", type text}, {\"Log\", type datetime}}),",
+                "    #\"Data Inserida\" = Table.AddColumn(#\"Tipo Alterado\", \"Data\", each DateTime.Date([Log]), type date),",
+                "    #\"Hora Inserida\" = Table.AddColumn(#\"Data Inserida\", \"Hora\", each DateTime.Time([Log]), type time)",
+                "in",
+                "    #\"Hora Inserida\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Parametro-Compras-MLA",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "ceed98f374904f5bac47e9017ceab50a"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Parâmetro",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "3bfe967f-03da-46af-b82a-d226e2689731",
+            "relatedColumnDetails": {
+              "groupByColumns": [
+                {
+                  "groupingColumn": "Parâmetro Campos"
+                }
+              ]
+            },
+            "sortByColumn": "Parâmetro Pedido",
+            "sourceColumn": "[Value1]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Parâmetro Campos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "kind": 2,
+                  "version": 3
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "c272bbba-2b9e-4b57-997d-77ad39d96c52",
+            "sortByColumn": "Parâmetro Pedido",
+            "sourceColumn": "[Value2]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Parâmetro Pedido",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "e845d5b3-6def-4d24-b988-ce92b8cb0245",
+            "sourceColumn": "[Value3]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "d551a36a-21f5-4b43-84cc-4cee0e3cd5ae",
+        "partitions": [
+          {
+            "name": "Parametro-Compras-MLA",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "{",
+                "    (\"(HS) Economia-mla\", NAMEOF('_Medidas'[(HS) Economia-mla]), 0),",
+                "    (\"R$ Est. Economia-mla\", NAMEOF('_Medidas'[R$ Est. Economia-mla]), 1)",
                 "}"
               ],
               "type": "calculated"

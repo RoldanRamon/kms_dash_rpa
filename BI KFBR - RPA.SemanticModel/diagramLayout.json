@@ -49,19 +49,6 @@
         },
         {
           "location": {
-            "x": 908,
-            "y": 240.5
-          },
-          "nodeIndex": "Parâmetro",
-          "nodeLineageTag": "457bce80-0361-4006-a1c8-c59b1cfa32a0",
-          "size": {
-            "height": 152,
-            "width": 234
-          },
-          "zIndex": 0
-        },
-        {
-          "location": {
             "x": 1192,
             "y": 192.5
           },
@@ -75,8 +62,38 @@
         },
         {
           "location": {},
-          "nodeIndex": "Parâmetro 2",
-          "nodeLineageTag": "6f8745ed-acf6-479f-b7d5-9b4cd6f22014",
+          "nodeIndex": "kms_rpa_lancamento_mla",
+          "nodeLineageTag": "822ac9b3-7841-4b0b-952a-cd74d84c1c5f",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 908,
+            "y": 240.5
+          },
+          "nodeIndex": "Parametro-Fiscal-Fretes",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "Parametro-Compras-KBI",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "Parametro-Compras-MLA",
           "size": {
             "height": 152,
             "width": 234
@@ -113,16 +130,29 @@
         },
         {
           "location": {
-            "x": 859,
-            "y": 88
+            "x": 858,
+            "y": 0
           },
           "nodeIndex": "fkms_rpa_otif_kbi",
           "nodeLineageTag": "36914237-47b8-4e66-b342-dc674385ce71",
           "size": {
-            "height": 248,
+            "height": 145,
             "width": 234
           },
           "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 841,
+            "y": 298
+          },
+          "nodeIndex": "kms_rpa_lancamento_mla",
+          "nodeLineageTag": "822ac9b3-7841-4b0b-952a-cd74d84c1c5f",
+          "size": {
+            "height": 145,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "Layout 1",
