@@ -4,7 +4,7 @@
     "annotations": [
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"fLancamentoQuirius\",\"fkms_rpa_otif_kbi\",\"kms_rpa_lancamento_mla\"]"
+        "value": "[\"fLancamentoQuirius\",\"kms_rpa_otif_kbi\",\"kms_rpa_lancamento_mla\",\"kms_rpa_axeler\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -733,25 +733,25 @@
               "fkms_rpa_otif_kbi": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fkms_rpa_otif_kbi"
+                    "ConceptualEntity": "kms_rpa_otif_kbi"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "fkms rpa otif kbi": {
+                    "kms rpa otif kbi": {
                       "State": "Generated"
                     }
                   },
                   {
-                    "fkm rpa otif kbi": {
+                    "km rpa otif kbi": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.78
                     }
                   },
                   {
-                    "fkms_rpa_otif_kbi": {
+                    "kms_rpa_otif_kbi": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
@@ -762,7 +762,7 @@
               "fkms_rpa_otif_kbi.data_processamento": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fkms_rpa_otif_kbi",
+                    "ConceptualEntity": "kms_rpa_otif_kbi",
                     "ConceptualProperty": "data_processamento"
                   }
                 },
@@ -862,7 +862,7 @@
               "fkms_rpa_otif_kbi.estimativa_dinheiro_economizado": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fkms_rpa_otif_kbi",
+                    "ConceptualEntity": "kms_rpa_otif_kbi",
                     "ConceptualProperty": "estimativa_dinheiro_economizado"
                   }
                 },
@@ -885,7 +885,7 @@
               "fkms_rpa_otif_kbi.estimativa_horas_economizada": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fkms_rpa_otif_kbi",
+                    "ConceptualEntity": "kms_rpa_otif_kbi",
                     "ConceptualProperty": "estimativa_horas_economizadas"
                   }
                 },
@@ -915,7 +915,7 @@
               "fkms_rpa_otif_kbi.fonte_arquivo": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fkms_rpa_otif_kbi",
+                    "ConceptualEntity": "kms_rpa_otif_kbi",
                     "ConceptualProperty": "fonte_arquivo"
                   }
                 },
@@ -938,7 +938,7 @@
               "fkms_rpa_otif_kbi.hora_processamento": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fkms_rpa_otif_kbi",
+                    "ConceptualEntity": "kms_rpa_otif_kbi",
                     "ConceptualProperty": "hora_processamento"
                   }
                 },
@@ -968,7 +968,7 @@
               "fkms_rpa_otif_kbi.qtde_processos_com_variacao": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fkms_rpa_otif_kbi",
+                    "ConceptualEntity": "kms_rpa_otif_kbi",
                     "ConceptualProperty": "qtde_processos_com_variacao"
                   }
                 },
@@ -998,7 +998,7 @@
               "fkms_rpa_otif_kbi.qtde_processos_total": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fkms_rpa_otif_kbi",
+                    "ConceptualEntity": "kms_rpa_otif_kbi",
                     "ConceptualProperty": "qtde_processos_total"
                   }
                 },
@@ -1041,6 +1041,195 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "kms_rpa_axeler": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "kms_rpa_axeler"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "kms rpa axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "km rpa axeler": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "kms_rpa_axeler": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "kms_rpa_axeler.data_processamento": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "kms_rpa_axeler",
+                    "ConceptualProperty": "data_processamento"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data processamento": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data_processamento": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "information processamento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "fact processamento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "info processamento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "statistic processamento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "document processamento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "figure processamento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "record processamento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "kms_rpa_axeler.hora_processamento": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "kms_rpa_axeler",
+                    "ConceptualProperty": "hora_processamento"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hora processamento": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "hora_processamento": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "time": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "kms_rpa_axeler.qtde_horas_economizada": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "kms_rpa_axeler",
+                    "ConceptualProperty": "qtde_horas_economizadas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtde horas economizada": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtde hora economizada": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "qtde_horas_economizadas": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
                     }
                   }
                 ]
@@ -1598,6 +1787,81 @@
                   "Value": "Hidden"
                 }
               },
+              "parâmetro1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Parametro-Comercial-Axeler"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "parametro-comercial-axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "parametro comercial axeler": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "parâmetro1.parâmetro": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Parametro-Comercial-Axeler",
+                    "ConceptualProperty": "Parâmetro"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "parâmetro": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "parâmetro1.parâmetro_campos": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Parametro-Comercial-Axeler",
+                    "ConceptualProperty": "Parâmetro Campos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "parâmetro campos": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "parâmetro1.parâmetro_pedido": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Parametro-Comercial-Axeler",
+                    "ConceptualProperty": "Parâmetro Pedido"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "parâmetro pedido": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
               "parâmetro_2": {
                 "Definition": {
                   "Binding": {
@@ -1715,6 +1979,48 @@
                     "(HS) economia": {
                       "State": "Generated"
                     }
+                  },
+                  {
+                    "Horas Economizadas": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.HS_economiaaxeler": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "(HS) Economia-axeler"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "(HS) economia-axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "(HS) economia axeler": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "(HS) Economia": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -1814,6 +2120,68 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.crescimento_diaaxeler": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Crescimento Dia-axeler"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% crescimento dia-axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "% crescimento dia axeler": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "percentage crescimento dia-axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  },
+                  {
+                    "percentage crescimento dia axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "pct crescimento dia-axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "pct crescimento dia axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
                     }
                   }
                 ]
@@ -1978,6 +2346,68 @@
                   }
                 ]
               },
+              "v_Medidas_medida.crescimento_horaaxeler": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Crescimento Hora-axeler"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% crescimento hora-axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "% crescimento hora axeler": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "percentage crescimento hora-axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  },
+                  {
+                    "percentage crescimento hora axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "pct crescimento hora-axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "pct crescimento hora axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              },
               "v_Medidas_medida.crescimento_horakbi": {
                 "Definition": {
                   "Binding": {
@@ -2134,6 +2564,68 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.crescimento_mesaxeler": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Crescimento Mes-axeler"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% crescimento mes-axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "% crescimento mes axeler": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "percentage crescimento me-axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  },
+                  {
+                    "percentage crescimento me axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "pct crescimento me-axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "pct crescimento me axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
                     }
                   }
                 ]
@@ -2298,6 +2790,68 @@
                   }
                 ]
               },
+              "v_Medidas_medida.crescimento_semanaaxeler": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Crescimento Semana-axeler"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% crescimento semana-axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "% crescimento semana axeler": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "percentage crescimento semana-axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  },
+                  {
+                    "percentage crescimento semana axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "pct crescimento semana-axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "pct crescimento semana axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              },
               "v_Medidas_medida.crescimento_semanakbi": {
                 "Definition": {
                   "Binding": {
@@ -2445,6 +2999,124 @@
                   }
                 ]
               },
+              "v_Medidas_medida.dias_de_vidaLancamentoQuirius": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "Dias de Vida-LancamentoQuirius"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dias de vida-LancamentoQuirius": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dias de vida LancamentoQuirius": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "Dias de Vida": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.dias_de_vidamla": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "Dias de Vida-mla"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dias de vida-mla": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dias de vida mla": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "Dias de Vida": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.dias_de_vidaotif": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "Dias de Vida-otif"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dias de vida-otif": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dias de vida otif": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "Dias de Vida": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.entity__crescimento_coresaxeler": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "_Crescimento (Cores)-axeler"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_crescimento (cores)-axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_crescimento (cores) axeler": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
               "v_Medidas_medida.entity__crescimento_coreskbi": {
                 "Definition": {
                   "Binding": {
@@ -2483,6 +3155,28 @@
                   },
                   {
                     "_crescimento (cores) mla": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.entity__crescimento_formatadoaxeler": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "_Crescimento (Formatado)-axeler"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_crescimento (formatado)-axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_crescimento (formatado) axeler": {
                       "State": "Generated",
                       "Weight": 0.97
                     }
@@ -2533,6 +3227,38 @@
                   }
                 ]
               },
+              "v_Medidas_medida.qtde_dias_de_vida": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "Dias de Vida-axeler"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dias de vida-axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dias de vida axeler": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "Dias de Vida": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
               "v_Medidas_medida.qtde_dias_do_último": {
                 "Definition": {
                   "Binding": {
@@ -2545,6 +3271,38 @@
                   {
                     "qtde dias do último": {
                       "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.qtde_dias_do_últimoaxeler": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "Qtde Dias Do Último-axeler"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtde dias do último-axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtde dias do último axeler": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "Qtde Dias Do Último": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -2661,6 +3419,110 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.591
+                    }
+                  },
+                  {
+                    "%": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.qtde_linhasaxeler": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "Qtde Linhas-axeler"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtde linhas-axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtde linhas axeler": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "Qtde Linhas": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.qtde_linhasaxeler1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "% Qtde Linhas-axeler"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% qtde linhas-axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "% qtde linhas axeler": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "percentage qtde linha-axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  },
+                  {
+                    "percentage qtde linha axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "pct qtde linha-axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "pct qtde linha axeler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
                     }
                   },
                   {
@@ -2863,6 +3725,38 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.624
+                    }
+                  }
+                ]
+              },
+              "v_Medidas_medida.r_est__economiaaxeler": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "R$ Est. Economia-axeler"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "r$ est. economia-axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "r$ est. economia axeler": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "R$ Est. Economia": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -3093,6 +3987,45 @@
                 "Visibility": {
                   "Value": "Hidden"
                 }
+              },
+              "v_Medidas_medida.último_processoaxeler": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Medidas",
+                    "ConceptualProperty": "Último Processo-axeler"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "último processo-axeler": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "último processo axeler": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "Último Processo": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
               },
               "v_Medidas_medida.último_processokbi": {
                 "Definition": {
@@ -3368,6 +4301,39 @@
                   "d_calendario.dia_da_semana": {
                     "Target": {
                       "Entity": "d_calendario.dia_da_semana"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_calendario_has_kms_rpa_axeler": {
+                "Binding": {
+                  "ConceptualEntity": "dCalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_axeler"
+                      },
+                      "Subject": {
+                        "Role": "d_calendario"
+                      }
+                    },
+                    "ID": "d_calendarios_have_kms_rpa_axelers",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario": {
+                    "Target": {
+                      "Entity": "d_calendario"
+                    }
+                  },
+                  "kms_rpa_axeler": {
+                    "Target": {
+                      "Entity": "kms_rpa_axeler"
                     }
                   }
                 },
@@ -4053,6 +5019,39 @@
                 },
                 "State": "Generated"
               },
+              "f_lancamento_quirius_has_v_Medidas_medida_dias_de_vidaLancamentoQuirius": {
+                "Binding": {
+                  "ConceptualEntity": "fLancamentoQuirius"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.dias_de_vidaLancamentoQuirius"
+                      },
+                      "Subject": {
+                        "Role": "f_lancamento_quirius"
+                      }
+                    },
+                    "ID": "f_lancamento_quiriuses_have_dias_de_vidaLancamentoQuirius",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_lancamento_quirius": {
+                    "Target": {
+                      "Entity": "f_lancamento_quirius"
+                    }
+                  },
+                  "v_Medidas_medida.dias_de_vidaLancamentoQuirius": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.dias_de_vidaLancamentoQuirius"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "f_lancamento_quirius_has_v_Medidas_medida_qtde_notas": {
                 "Binding": {
                   "ConceptualEntity": "fLancamentoQuirius"
@@ -4154,7 +5153,7 @@
               },
               "fkms_rpa_otif_kbi_has_d_calendario": {
                 "Binding": {
-                  "ConceptualEntity": "fkms_rpa_otif_kbi"
+                  "ConceptualEntity": "kms_rpa_otif_kbi"
                 },
                 "Phrasings": [
                   {
@@ -4166,7 +5165,7 @@
                         "Role": "fkms_rpa_otif_kbi"
                       }
                     },
-                    "ID": "fkms_rpa_otif_kbis_have_d_calendarios",
+                    "ID": "kms_rpa_otif_kbis_have_d_calendarios",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -4179,7 +5178,7 @@
                         "Role": "d_calendario"
                       }
                     },
-                    "ID": "d_calendarios_have_fkms_rpa_otif_kbis",
+                    "ID": "d_calendarios_have_kms_rpa_otif_kbis",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4200,7 +5199,7 @@
               },
               "fkms_rpa_otif_kbi_has_data_processamento": {
                 "Binding": {
-                  "ConceptualEntity": "fkms_rpa_otif_kbi"
+                  "ConceptualEntity": "kms_rpa_otif_kbi"
                 },
                 "Phrasings": [
                   {
@@ -4212,7 +5211,7 @@
                         "Role": "fkms_rpa_otif_kbi"
                       }
                     },
-                    "ID": "fkms_rpa_otif_kbis_have_data_processamentos",
+                    "ID": "kms_rpa_otif_kbis_have_data_processamentos",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4233,7 +5232,7 @@
               },
               "fkms_rpa_otif_kbi_has_estimativa_dinheiro_economizado": {
                 "Binding": {
-                  "ConceptualEntity": "fkms_rpa_otif_kbi"
+                  "ConceptualEntity": "kms_rpa_otif_kbi"
                 },
                 "Phrasings": [
                   {
@@ -4245,7 +5244,7 @@
                         "Role": "fkms_rpa_otif_kbi"
                       }
                     },
-                    "ID": "fkms_rpa_otif_kbis_have_estimativa_dinheiro_economizados",
+                    "ID": "kms_rpa_otif_kbis_have_estimativa_dinheiro_economizados",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4266,7 +5265,7 @@
               },
               "fkms_rpa_otif_kbi_has_estimativa_horas_economizada": {
                 "Binding": {
-                  "ConceptualEntity": "fkms_rpa_otif_kbi"
+                  "ConceptualEntity": "kms_rpa_otif_kbi"
                 },
                 "Phrasings": [
                   {
@@ -4278,7 +5277,7 @@
                         "Role": "fkms_rpa_otif_kbi"
                       }
                     },
-                    "ID": "fkms_rpa_otif_kbis_have_estimativa_horas_economizadas",
+                    "ID": "kms_rpa_otif_kbis_have_estimativa_horas_economizadas",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4299,7 +5298,7 @@
               },
               "fkms_rpa_otif_kbi_has_fonte_arquivo": {
                 "Binding": {
-                  "ConceptualEntity": "fkms_rpa_otif_kbi"
+                  "ConceptualEntity": "kms_rpa_otif_kbi"
                 },
                 "Phrasings": [
                   {
@@ -4311,7 +5310,7 @@
                         "Role": "fkms_rpa_otif_kbi"
                       }
                     },
-                    "ID": "fkms_rpa_otif_kbis_have_fonte_arquivos",
+                    "ID": "kms_rpa_otif_kbis_have_fonte_arquivos",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4332,7 +5331,7 @@
               },
               "fkms_rpa_otif_kbi_has_hora_processamento": {
                 "Binding": {
-                  "ConceptualEntity": "fkms_rpa_otif_kbi"
+                  "ConceptualEntity": "kms_rpa_otif_kbi"
                 },
                 "Phrasings": [
                   {
@@ -4344,7 +5343,7 @@
                         "Role": "fkms_rpa_otif_kbi"
                       }
                     },
-                    "ID": "fkms_rpa_otif_kbis_have_hora_processamentos",
+                    "ID": "kms_rpa_otif_kbis_have_hora_processamentos",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4365,7 +5364,7 @@
               },
               "fkms_rpa_otif_kbi_has_qtde_processos_com_variacao": {
                 "Binding": {
-                  "ConceptualEntity": "fkms_rpa_otif_kbi"
+                  "ConceptualEntity": "kms_rpa_otif_kbi"
                 },
                 "Phrasings": [
                   {
@@ -4377,7 +5376,7 @@
                         "Role": "fkms_rpa_otif_kbi"
                       }
                     },
-                    "ID": "fkms_rpa_otif_kbis_have_qtde_processos_com_variacaos",
+                    "ID": "kms_rpa_otif_kbis_have_qtde_processos_com_variacaos",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4398,7 +5397,7 @@
               },
               "fkms_rpa_otif_kbi_has_qtde_processos_total": {
                 "Binding": {
-                  "ConceptualEntity": "fkms_rpa_otif_kbi"
+                  "ConceptualEntity": "kms_rpa_otif_kbi"
                 },
                 "Phrasings": [
                   {
@@ -4410,7 +5409,7 @@
                         "Role": "fkms_rpa_otif_kbi"
                       }
                     },
-                    "ID": "fkms_rpa_otif_kbis_have_qtde_processos_totals",
+                    "ID": "kms_rpa_otif_kbis_have_qtde_processos_totals",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4431,7 +5430,7 @@
               },
               "fkms_rpa_otif_kbi_has_v_Medidas_medida_HS_economiakbi": {
                 "Binding": {
-                  "ConceptualEntity": "fkms_rpa_otif_kbi"
+                  "ConceptualEntity": "kms_rpa_otif_kbi"
                 },
                 "Phrasings": [
                   {
@@ -4443,7 +5442,7 @@
                         "Role": "fkms_rpa_otif_kbi"
                       }
                     },
-                    "ID": "fkms_rpa_otif_kbis_have_HS_economiakbi",
+                    "ID": "kms_rpa_otif_kbis_have_HS_economiakbi",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4462,9 +5461,42 @@
                 },
                 "State": "Generated"
               },
+              "fkms_rpa_otif_kbi_has_v_Medidas_medida_dias_de_vidaotif": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_otif_kbi"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.dias_de_vidaotif"
+                      },
+                      "Subject": {
+                        "Role": "fkms_rpa_otif_kbi"
+                      }
+                    },
+                    "ID": "kms_rpa_otif_kbis_have_dias_de_vidaotif",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fkms_rpa_otif_kbi": {
+                    "Target": {
+                      "Entity": "fkms_rpa_otif_kbi"
+                    }
+                  },
+                  "v_Medidas_medida.dias_de_vidaotif": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.dias_de_vidaotif"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fkms_rpa_otif_kbi_has_v_Medidas_medida_qtde_linhas": {
                 "Binding": {
-                  "ConceptualEntity": "fkms_rpa_otif_kbi"
+                  "ConceptualEntity": "kms_rpa_otif_kbi"
                 },
                 "Phrasings": [
                   {
@@ -4476,7 +5508,7 @@
                         "Role": "fkms_rpa_otif_kbi"
                       }
                     },
-                    "ID": "fkms_rpa_otif_kbis_have_qtde_linhas",
+                    "ID": "kms_rpa_otif_kbis_have_qtde_linhas",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4497,7 +5529,7 @@
               },
               "fkms_rpa_otif_kbi_has_v_Medidas_medida_qtde_linhas1": {
                 "Binding": {
-                  "ConceptualEntity": "fkms_rpa_otif_kbi"
+                  "ConceptualEntity": "kms_rpa_otif_kbi"
                 },
                 "Phrasings": [
                   {
@@ -4509,7 +5541,7 @@
                         "Role": "fkms_rpa_otif_kbi"
                       }
                     },
-                    "ID": "fkms_rpa_otif_kbis_have__qtde_linhas",
+                    "ID": "kms_rpa_otif_kbis_have__qtde_linhas",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4530,7 +5562,7 @@
               },
               "fkms_rpa_otif_kbi_has_v_Medidas_medida_r_est__economiakbi": {
                 "Binding": {
-                  "ConceptualEntity": "fkms_rpa_otif_kbi"
+                  "ConceptualEntity": "kms_rpa_otif_kbi"
                 },
                 "Phrasings": [
                   {
@@ -4542,7 +5574,7 @@
                         "Role": "fkms_rpa_otif_kbi"
                       }
                     },
-                    "ID": "fkms_rpa_otif_kbis_have_r_est__economiakbi",
+                    "ID": "kms_rpa_otif_kbis_have_r_est__economiakbi",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4563,7 +5595,7 @@
               },
               "fkms_rpa_otif_kbi_has_v_Medidas_medida_último_processokbi": {
                 "Binding": {
-                  "ConceptualEntity": "fkms_rpa_otif_kbi"
+                  "ConceptualEntity": "kms_rpa_otif_kbi"
                 },
                 "Phrasings": [
                   {
@@ -4575,7 +5607,7 @@
                         "Role": "fkms_rpa_otif_kbi"
                       }
                     },
-                    "ID": "fkms_rpa_otif_kbis_have_último_processokbi",
+                    "ID": "kms_rpa_otif_kbis_have_último_processokbi",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4589,6 +5621,336 @@
                   "v_Medidas_medida.último_processokbi": {
                     "Target": {
                       "Entity": "v_Medidas_medida.último_processokbi"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_axeler_has_d_calendario": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_axeler"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_calendario"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_axeler"
+                      }
+                    },
+                    "ID": "kms_rpa_axelers_have_d_calendarios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_calendario": {
+                    "Target": {
+                      "Entity": "d_calendario"
+                    }
+                  },
+                  "kms_rpa_axeler": {
+                    "Target": {
+                      "Entity": "kms_rpa_axeler"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_axeler_has_data_processamento": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_axeler"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_axeler.data_processamento"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_axeler"
+                      }
+                    },
+                    "ID": "kms_rpa_axelers_have_data_processamentos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_axeler": {
+                    "Target": {
+                      "Entity": "kms_rpa_axeler"
+                    }
+                  },
+                  "kms_rpa_axeler.data_processamento": {
+                    "Target": {
+                      "Entity": "kms_rpa_axeler.data_processamento"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_axeler_has_hora_processamento": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_axeler"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_axeler.hora_processamento"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_axeler"
+                      }
+                    },
+                    "ID": "kms_rpa_axelers_have_hora_processamentos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_axeler": {
+                    "Target": {
+                      "Entity": "kms_rpa_axeler"
+                    }
+                  },
+                  "kms_rpa_axeler.hora_processamento": {
+                    "Target": {
+                      "Entity": "kms_rpa_axeler.hora_processamento"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_axeler_has_qtde_horas_economizada": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_axeler"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "kms_rpa_axeler.qtde_horas_economizada"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_axeler"
+                      }
+                    },
+                    "ID": "kms_rpa_axelers_have_qtde_horas_economizadas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_axeler": {
+                    "Target": {
+                      "Entity": "kms_rpa_axeler"
+                    }
+                  },
+                  "kms_rpa_axeler.qtde_horas_economizada": {
+                    "Target": {
+                      "Entity": "kms_rpa_axeler.qtde_horas_economizada"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_axeler_has_v_Medidas_medida_HS_economiaaxeler": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_axeler"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.HS_economiaaxeler"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_axeler"
+                      }
+                    },
+                    "ID": "kms_rpa_axelers_have_HS_economiaaxeler",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_axeler": {
+                    "Target": {
+                      "Entity": "kms_rpa_axeler"
+                    }
+                  },
+                  "v_Medidas_medida.HS_economiaaxeler": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.HS_economiaaxeler"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_axeler_has_v_Medidas_medida_qtde_dias_de_vida": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_axeler"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.qtde_dias_de_vida"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_axeler"
+                      }
+                    },
+                    "ID": "kms_rpa_axelers_have_dias_de_vidaaxeler",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_axeler": {
+                    "Target": {
+                      "Entity": "kms_rpa_axeler"
+                    }
+                  },
+                  "v_Medidas_medida.qtde_dias_de_vida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.qtde_dias_de_vida"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_axeler_has_v_Medidas_medida_qtde_linhasaxeler": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_axeler"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.qtde_linhasaxeler"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_axeler"
+                      }
+                    },
+                    "ID": "kms_rpa_axelers_have_qtde_linhasaxeler",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_axeler": {
+                    "Target": {
+                      "Entity": "kms_rpa_axeler"
+                    }
+                  },
+                  "v_Medidas_medida.qtde_linhasaxeler": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.qtde_linhasaxeler"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_axeler_has_v_Medidas_medida_qtde_linhasaxeler1": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_axeler"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.qtde_linhasaxeler1"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_axeler"
+                      }
+                    },
+                    "ID": "kms_rpa_axelers_have__qtde_linhasaxeler",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_axeler": {
+                    "Target": {
+                      "Entity": "kms_rpa_axeler"
+                    }
+                  },
+                  "v_Medidas_medida.qtde_linhasaxeler1": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.qtde_linhasaxeler1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_axeler_has_v_Medidas_medida_r_est__economiaaxeler": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_axeler"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.r_est__economiaaxeler"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_axeler"
+                      }
+                    },
+                    "ID": "kms_rpa_axelers_have_r_est__economiaaxeler",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_axeler": {
+                    "Target": {
+                      "Entity": "kms_rpa_axeler"
+                    }
+                  },
+                  "v_Medidas_medida.r_est__economiaaxeler": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.r_est__economiaaxeler"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "kms_rpa_axeler_has_v_Medidas_medida_último_processoaxeler": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_axeler"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.último_processoaxeler"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_axeler"
+                      }
+                    },
+                    "ID": "kms_rpa_axelers_have_último_processoaxeler",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_axeler": {
+                    "Target": {
+                      "Entity": "kms_rpa_axeler"
+                    }
+                  },
+                  "v_Medidas_medida.último_processoaxeler": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.último_processoaxeler"
                     }
                   }
                 },
@@ -4944,6 +6306,39 @@
                 },
                 "State": "Generated"
               },
+              "kms_rpa_lancamento_mla_has_v_Medidas_medida_dias_de_vidamla": {
+                "Binding": {
+                  "ConceptualEntity": "kms_rpa_lancamento_mla"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.dias_de_vidamla"
+                      },
+                      "Subject": {
+                        "Role": "kms_rpa_lancamento_mla"
+                      }
+                    },
+                    "ID": "kms_rpa_lancamento_mla_have_dias_de_vidamla",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "kms_rpa_lancamento_mla": {
+                    "Target": {
+                      "Entity": "kms_rpa_lancamento_mla"
+                    }
+                  },
+                  "v_Medidas_medida.dias_de_vidamla": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.dias_de_vidamla"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "kms_rpa_lancamento_mla_has_v_Medidas_medida_qtde_linhasmla": {
                 "Binding": {
                   "ConceptualEntity": "kms_rpa_lancamento_mla"
@@ -5109,6 +6504,39 @@
                 },
                 "State": "Generated"
               },
+              "parâmetro1_has_parâmetro": {
+                "Binding": {
+                  "ConceptualEntity": "Parametro-Comercial-Axeler"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "parâmetro1.parâmetro"
+                      },
+                      "Subject": {
+                        "Role": "parâmetro1"
+                      }
+                    },
+                    "ID": "parametrocomercialaxelers_have_parâmetros",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "parâmetro1": {
+                    "Target": {
+                      "Entity": "parâmetro1"
+                    }
+                  },
+                  "parâmetro1.parâmetro": {
+                    "Target": {
+                      "Entity": "parâmetro1.parâmetro"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "parâmetro_2_has_parâmetro": {
                 "Binding": {
                   "ConceptualEntity": "Parametro-Compras-KBI"
@@ -5241,6 +6669,39 @@
                 },
                 "State": "Generated"
               },
+              "v_Medidas_medida_has_crescimento_diaaxeler": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.crescimento_diaaxeler"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_diaaxeler",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.crescimento_diaaxeler": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.crescimento_diaaxeler"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "v_Medidas_medida_has_crescimento_diakbi": {
                 "Binding": {
                   "ConceptualEntity": "_Medidas"
@@ -5335,6 +6796,39 @@
                   "v_Medidas_medida.crescimento_hora": {
                     "Target": {
                       "Entity": "v_Medidas_medida.crescimento_hora"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Medidas_medida_has_crescimento_horaaxeler": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.crescimento_horaaxeler"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_horaaxeler",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.crescimento_horaaxeler": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.crescimento_horaaxeler"
                     }
                   }
                 },
@@ -5439,6 +6933,39 @@
                 },
                 "State": "Generated"
               },
+              "v_Medidas_medida_has_crescimento_mesaxeler": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.crescimento_mesaxeler"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_mesaxeler",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.crescimento_mesaxeler": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.crescimento_mesaxeler"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "v_Medidas_medida_has_crescimento_meskbi": {
                 "Binding": {
                   "ConceptualEntity": "_Medidas"
@@ -5538,6 +7065,39 @@
                 },
                 "State": "Generated"
               },
+              "v_Medidas_medida_has_crescimento_semanaaxeler": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.crescimento_semanaaxeler"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_semanaaxeler",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.crescimento_semanaaxeler": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.crescimento_semanaaxeler"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "v_Medidas_medida_has_crescimento_semanakbi": {
                 "Binding": {
                   "ConceptualEntity": "_Medidas"
@@ -5604,6 +7164,39 @@
                 },
                 "State": "Generated"
               },
+              "v_Medidas_medida_has_entity__crescimento_coresaxeler": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.entity__crescimento_coresaxeler"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_coresaxeler",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.entity__crescimento_coresaxeler": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.entity__crescimento_coresaxeler"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "v_Medidas_medida_has_entity__crescimento_coreskbi": {
                 "Binding": {
                   "ConceptualEntity": "_Medidas"
@@ -5665,6 +7258,39 @@
                   "v_Medidas_medida.entity__crescimento_coresmla": {
                     "Target": {
                       "Entity": "v_Medidas_medida.entity__crescimento_coresmla"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Medidas_medida_has_entity__crescimento_formatadoaxeler": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.entity__crescimento_formatadoaxeler"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have__crescimento_formatadoaxeler",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.entity__crescimento_formatadoaxeler": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.entity__crescimento_formatadoaxeler"
                     }
                   }
                 },
@@ -5764,6 +7390,39 @@
                   "v_Medidas_medida.qtde_dias_do_último": {
                     "Target": {
                       "Entity": "v_Medidas_medida.qtde_dias_do_último"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Medidas_medida_has_qtde_dias_do_últimoaxeler": {
+                "Binding": {
+                  "ConceptualEntity": "_Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Medidas_medida.qtde_dias_do_últimoaxeler"
+                      },
+                      "Subject": {
+                        "Role": "v_Medidas_medida"
+                      }
+                    },
+                    "ID": "Phrasing_medidas_have_qtde_dias_do_últimoaxeler",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Medidas_medida": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida"
+                    }
+                  },
+                  "v_Medidas_medida.qtde_dias_do_últimoaxeler": {
+                    "Target": {
+                      "Entity": "v_Medidas_medida.qtde_dias_do_últimoaxeler"
                     }
                   }
                 },
@@ -5957,7 +7616,7 @@
       {
         "name": "d2fdf298-a544-ba72-d0a6-8849bc6622b0",
         "fromColumn": "data_processamento",
-        "fromTable": "fkms_rpa_otif_kbi",
+        "fromTable": "kms_rpa_otif_kbi",
         "toColumn": "Date",
         "toTable": "dCalendario"
       },
@@ -5965,6 +7624,15 @@
         "name": "78ccf1d6-a36e-56df-c34f-6f2a85e4b874",
         "fromColumn": "Data",
         "fromTable": "kms_rpa_lancamento_mla",
+        "toColumn": "Date",
+        "toTable": "dCalendario"
+      },
+      {
+        "name": "ad16d665-88ee-117b-4cc5-58a08c649c29",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "data_processamento",
+        "fromTable": "kms_rpa_axeler",
         "toColumn": "Date",
         "toTable": "dCalendario"
       }
@@ -6359,7 +8027,7 @@
           {
             "name": "Qtde Linhas",
             "displayFolder": "Robo Compras - OTIF KBI",
-            "expression": "countrows(fkms_rpa_otif_kbi)",
+            "expression": "countrows(kms_rpa_otif_kbi)",
             "lineageTag": "ef6851cb-eb02-42b2-b0c8-3d5142848fda"
           },
           {
@@ -6371,20 +8039,20 @@
               }
             ],
             "displayFolder": "Robo Compras - OTIF KBI",
-            "expression": "sum(fkms_rpa_otif_kbi[estimativa_dinheiro_economizado])",
+            "expression": "sum(kms_rpa_otif_kbi[estimativa_dinheiro_economizado])",
             "formatString": "R$ #,#0.00",
             "lineageTag": "4ea6d631-a864-476e-bf5d-d6a9793dea1e"
           },
           {
             "name": "(HS) Economia-kbi",
             "displayFolder": "Robo Compras - OTIF KBI",
-            "expression": "sum(fkms_rpa_otif_kbi[estimativa_horas_economizadas])",
+            "expression": "sum(kms_rpa_otif_kbi[estimativa_horas_economizadas])",
             "lineageTag": "3b6c85ab-fb28-4cf1-88d7-bbfd188da7a5"
           },
           {
             "name": "Último Processo-kbi",
             "displayFolder": "Robo Compras - OTIF KBI",
-            "expression": "max(fkms_rpa_otif_kbi[data_processamento])",
+            "expression": "max(kms_rpa_otif_kbi[data_processamento])",
             "formatString": "Short Date",
             "lineageTag": "d3782697-0f6e-49f0-a7f5-188f59eb5e10"
           },
@@ -6400,7 +8068,7 @@
             "expression": [
               "DIVIDE (",
               "    [Qtde Linhas],",
-              "    CALCULATE ( [Qtde Linhas], ALL ( fkms_rpa_otif_kbi ) ),",
+              "    CALCULATE ( [Qtde Linhas], ALL ( kms_rpa_otif_kbi ) ),",
               "    0",
               ")"
             ],
@@ -6413,15 +8081,15 @@
             "expression": [
               "VAR UltimaDataHora =",
               "    CALCULATE (",
-              "        MAX ( fkms_rpa_otif_kbi[hora_processamento] ),",
+              "        MAX ( kms_rpa_otif_kbi[hora_processamento] ),",
               "        FILTER (",
-              "            ALL ( fkms_rpa_otif_kbi ),",
-              "            fkms_rpa_otif_kbi[hora_processamento] < MAX ( fkms_rpa_otif_kbi[hora_processamento] )",
+              "            ALL ( kms_rpa_otif_kbi ),",
+              "            kms_rpa_otif_kbi[hora_processamento] < MAX ( kms_rpa_otif_kbi[hora_processamento] )",
               "                && NOT ( ISBLANK ( [Qtde Linhas] ) )",
               "        )",
               "    )",
               "VAR QtdeUltimaHora =",
-              "    CALCULATE ( [Qtde Linhas], fkms_rpa_otif_kbi[hora_processamento] = UltimaDataHora )",
+              "    CALCULATE ( [Qtde Linhas], kms_rpa_otif_kbi[hora_processamento] = UltimaDataHora )",
               "VAR QtdeAtual = [Qtde Linhas]",
               "RETURN",
               "    IF (",
@@ -6519,7 +8187,7 @@
             "expression": [
               "SWITCH (",
               "    TRUE (),",
-              "    ISINSCOPE ( fkms_rpa_otif_kbi[hora_processamento] ),",
+              "    ISINSCOPE ( kms_rpa_otif_kbi[hora_processamento] ),",
               "        IF (",
               "            [% Crescimento Hora-kbi] > 0,",
               "            FORMAT ( [% Crescimento Hora-kbi], \"∆ 0%\" ),",
@@ -6554,7 +8222,7 @@
             "expression": [
               "SWITCH (",
               "    TRUE (),",
-              "    ISINSCOPE ( fkms_rpa_otif_kbi[hora_processamento] ), IF ( [% Crescimento Hora-kbi] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    ISINSCOPE ( kms_rpa_otif_kbi[hora_processamento] ), IF ( [% Crescimento Hora-kbi] < 0.001, \"#FF0000\", \"#008000\" ),",
               "    ISINSCOPE ( dCalendario[Dia] ), IF ( [% Crescimento Dia-kbi] < 0.001, \"#FF0000\", \"#008000\" ),",
               "    ISINSCOPE ( dCalendario[Semana] ), IF ( [% Crescimento Semana-kbi] < 0.001, \"#FF0000\", \"#008000\" ),",
               "    ISINSCOPE ( dCalendario[Mes] ), IF ( [% Crescimento Mes-kbi] < 0.001, \"#FF0000\", \"#008000\" ),",
@@ -6775,6 +8443,239 @@
               ")"
             ],
             "lineageTag": "97a2f7ac-119e-48a1-8794-bee48ed5433b"
+          },
+          {
+            "name": "Qtde Linhas-axeler",
+            "displayFolder": "Robo Comercial - Axeler",
+            "expression": "countrows(kms_rpa_axeler)",
+            "lineageTag": "daf35887-4df8-4d85-a348-44e204fde04b"
+          },
+          {
+            "name": "(HS) Economia-axeler",
+            "displayFolder": "Robo Comercial - Axeler",
+            "expression": "sum(kms_rpa_axeler[qtde_horas_economizadas])",
+            "lineageTag": "ecb20b65-11e9-4b27-b2c8-8fb3d9530774"
+          },
+          {
+            "name": "R$ Est. Economia-axeler",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isCustom\":true}"
+              }
+            ],
+            "displayFolder": "Robo Comercial - Axeler",
+            "expression": "[(HS) Economia-axeler] * 50",
+            "formatString": "R$ #,#0.00",
+            "lineageTag": "f482e58a-b196-40a3-a3f1-102ff30aff64"
+          },
+          {
+            "name": "Último Processo-axeler",
+            "displayFolder": "Robo Comercial - Axeler",
+            "expression": "max(kms_rpa_axeler[data_processamento])",
+            "lineageTag": "4bebb2e5-1037-4c98-8d17-d838787cebee"
+          },
+          {
+            "name": "Qtde Dias Do Último-axeler",
+            "displayFolder": "Robo Comercial - Axeler",
+            "expression": "DATEDIFF([Último Processo-axeler], NOW(), DAY)",
+            "lineageTag": "7b785863-a403-4338-abaa-c82c8a3447ff"
+          },
+          {
+            "name": "% Qtde Linhas-axeler",
+            "displayFolder": "Robo Comercial - Axeler",
+            "expression": [
+              "DIVIDE (\r",
+              "    [Qtde Linhas-axeler],\r",
+              "    CALCULATE ( [Qtde Linhas-axeler], REMOVEFILTERS ( 'kms_rpa_axeler' ) ),\r",
+              "    0\r",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "c2596380-2a16-4579-98db-1443e8e3de08"
+          },
+          {
+            "name": "% Crescimento Hora-axeler",
+            "displayFolder": "Robo Comercial - Axeler",
+            "expression": [
+              "VAR UltimaDataHora =",
+              "    CALCULATE (",
+              "        MAX ( kms_rpa_axeler[hora_processamento] ),",
+              "        FILTER (",
+              "            ALL ( kms_rpa_axeler ),",
+              "            kms_rpa_axeler[hora_processamento] < MAX ( kms_rpa_axeler[hora_processamento] )",
+              "                && NOT ( ISBLANK ( [Qtde Linhas-axeler] ) )",
+              "        )",
+              "    )",
+              "VAR QtdeUltimaHora =",
+              "    CALCULATE ( [Qtde Linhas-axeler], kms_rpa_axeler[hora_processamento] = UltimaDataHora )",
+              "VAR QtdeAtual = [Qtde Linhas-axeler]",
+              "RETURN",
+              "    IF (",
+              "        NOT ISBLANK ( QtdeUltimaHora ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimaHora, QtdeUltimaHora, 0 ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "lineageTag": "134e4c24-7b65-4524-960e-fb676828c5ab"
+          },
+          {
+            "name": "% Crescimento Dia-axeler",
+            "displayFolder": "Robo Comercial - Axeler",
+            "expression": [
+              "VAR UltimaData =",
+              "    CALCULATE (",
+              "        MAX ( dCalendario[Date] ),",
+              "        FILTER (",
+              "            ALL ( dCalendario ),",
+              "            dCalendario[Date] < MAX ( dCalendario[Date] )",
+              "                && NOT ( ISBLANK ( [Qtde Linhas-axeler] ) )",
+              "        )",
+              "    )",
+              "VAR QtdeUltimaData =",
+              "    CALCULATE ( [Qtde Linhas-axeler], dCalendario[Date] = UltimaData )",
+              "VAR QtdeAtual = [Qtde Linhas-axeler]",
+              "RETURN",
+              "    IF (",
+              "        NOT ISBLANK ( QtdeUltimaData ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimaData, QtdeUltimaData, 0 ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "lineageTag": "1a453832-14f4-4696-b83c-2592c6c0fc28"
+          },
+          {
+            "name": "% Crescimento Semana-axeler",
+            "displayFolder": "Robo Comercial - Axeler",
+            "expression": [
+              "VAR UltimaSemana =",
+              "    CALCULATE (",
+              "        MAX ( dCalendario[Date] ),",
+              "        FILTER (",
+              "            ALL ( dCalendario ),",
+              "            dCalendario[Date] < MAX ( dCalendario[Date] )",
+              "                && WEEKNUM ( dCalendario[Date], 2 ) < WEEKNUM ( MAX ( dCalendario[Date] ), 2 )",
+              "                && NOT ( ISBLANK ( [Qtde Linhas-axeler] ) )",
+              "        )",
+              "    )",
+              "VAR QtdeUltimaSemana =",
+              "    CALCULATE ( [Qtde Linhas-axeler], dCalendario[Date] = UltimaSemana )",
+              "VAR QtdeAtual = [Qtde Linhas-axeler]",
+              "RETURN",
+              "    IF (",
+              "        NOT ISBLANK ( QtdeUltimaSemana ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimaSemana, QtdeUltimaSemana, 0 ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "lineageTag": "1abb854e-5833-4afd-9c29-8204073c9667"
+          },
+          {
+            "name": "% Crescimento Mes-axeler",
+            "displayFolder": "Robo Comercial - Axeler",
+            "expression": [
+              "VAR UltimoMes =",
+              "    MONTH(CALCULATE (",
+              "        MAX ( dCalendario[Date] ),",
+              "        FILTER (",
+              "            ALL ( dCalendario ),",
+              "            dCalendario[Date] < MAX ( dCalendario[Date] )",
+              "                && MONTH ( dCalendario[Date] ) < MONTH ( MAX ( dCalendario[Date] ) )",
+              "                && YEAR ( dCalendario[Date] ) = YEAR ( MAX ( dCalendario[Date] ) )",
+              "                && NOT ( ISBLANK ( [Qtde Linhas-axeler] ) )",
+              "        )",
+              "    ))",
+              "    ",
+              "VAR QtdeUltimoMes =",
+              "    CALCULATE ( [Qtde Linhas-axeler], MONTH(dCalendario[Date]) = UltimoMes )",
+              "VAR QtdeAtual = [Qtde Linhas-axeler]",
+              "",
+              "VAR _Resultado =     IF (",
+              "        NOT ISBLANK ( QtdeUltimoMes ),",
+              "        DIVIDE ( QtdeAtual - QtdeUltimoMes, QtdeUltimoMes, 0 ),",
+              "        BLANK ()",
+              "    )",
+              "RETURN _Resultado"
+            ],
+            "lineageTag": "335eea2e-64d2-498c-a097-a1e03764c242"
+          },
+          {
+            "name": "_Crescimento (Formatado)-axeler",
+            "displayFolder": "Robo Comercial - Axeler",
+            "expression": [
+              "SWITCH (",
+              "    TRUE (),",
+              "    ISINSCOPE ( kms_rpa_axeler[hora_processamento] ),",
+              "        IF (",
+              "            [% Crescimento Hora-axeler] > 0,",
+              "            FORMAT ( [% Crescimento Hora-axeler], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Hora-axeler], \"∇ 0%\" )",
+              "        ),",
+              "    ISINSCOPE ( dCalendario[Dia] ),",
+              "        IF (",
+              "            [% Crescimento Dia] > 0,",
+              "            FORMAT ( [% Crescimento Dia-axeler], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Dia-axeler], \"∇ 0%\" )",
+              "        ),",
+              "    ISINSCOPE ( dCalendario[Semana] ),",
+              "        IF (",
+              "            [% Crescimento Semana-axeler] > 0,",
+              "            FORMAT ( [% Crescimento Semana-axeler], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Semana-axeler], \"∇ 0%\" )",
+              "        ),",
+              "    ISINSCOPE ( dCalendario[Mes] ),",
+              "        IF (",
+              "            [% Crescimento Mes-axeler] > 0,",
+              "            FORMAT ( [% Crescimento Mes-axeler], \"∆ 0%\" ),",
+              "            FORMAT ( [% Crescimento Mes-axeler], \"∇ 0%\" )",
+              "        ),",
+              "    BLANK ()",
+              ")"
+            ],
+            "lineageTag": "d7ec040f-524a-43f2-8322-1b784a3dd76e"
+          },
+          {
+            "name": "_Crescimento (Cores)-axeler",
+            "displayFolder": "Robo Comercial - Axeler",
+            "expression": [
+              "SWITCH (",
+              "    TRUE (),",
+              "    ISINSCOPE ( kms_rpa_axeler[hora_processamento] ), IF ( [% Crescimento Hora-axeler] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    ISINSCOPE ( dCalendario[Dia] ), IF ( [% Crescimento Dia-axeler] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    ISINSCOPE ( dCalendario[Semana] ), IF ( [% Crescimento Semana-axeler] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    ISINSCOPE ( dCalendario[Mes] ), IF ( [% Crescimento Mes-axeler] < 0.001, \"#FF0000\", \"#008000\" ),",
+              "    BLANK ()",
+              ")"
+            ],
+            "lineageTag": "f0468f86-6ea3-49c6-8d56-a155fb79d03e"
+          },
+          {
+            "name": "Dias de Vida-axeler",
+            "displayFolder": "Robo Comercial - Axeler",
+            "expression": "DISTINCTCOUNT(kms_rpa_axeler[data_processamento])",
+            "formatString": "0",
+            "lineageTag": "51cf914d-da24-456c-9489-166e6949dc23"
+          },
+          {
+            "name": "Dias de Vida-otif",
+            "displayFolder": "Robo Compras - OTIF KBI",
+            "expression": "DISTINCTCOUNT(kms_rpa_otif_kbi[data_processamento])",
+            "formatString": "0",
+            "lineageTag": "41986e58-dd32-4099-9dc1-31cae4de306f"
+          },
+          {
+            "name": "Dias de Vida-mla",
+            "displayFolder": "Robo Compras - MLA",
+            "expression": "DISTINCTCOUNT(kms_rpa_lancamento_mla[Data])",
+            "formatString": "0",
+            "lineageTag": "5ff5084b-cae5-4c9a-b44f-8166ceadaf65"
+          },
+          {
+            "name": "Dias de Vida-LancamentoQuirius",
+            "displayFolder": "Robo Fiscal - Lancamento Fretes",
+            "expression": "DISTINCTCOUNT(fLancamentoQuirius[Data])",
+            "formatString": "0",
+            "lineageTag": "19e3b042-cb49-4d54-abbf-cd3c7f7ae11d"
           }
         ],
         "partitions": [
@@ -6999,8 +8900,8 @@
             "source": {
               "expression": [
                 "",
-                "VAR _dataMinima = MIN(MIN(fLancamentoQuirius[Lançado Quirius]), MIN(fkms_rpa_otif_kbi[data_processamento]))",
-                "VAR _dataMaxima = MAX(MAX(fLancamentoQuirius[Lançado Quirius]), MAX(fkms_rpa_otif_kbi[data_processamento]))",
+                "VAR _dataMinima = MIN(MIN(MIN(fLancamentoQuirius[Lançado Quirius]), MIN(kms_rpa_otif_kbi[data_processamento])), min(kms_rpa_axeler[data_processamento]))",
+                "VAR _dataMaxima = MAX(MAX(MAX(fLancamentoQuirius[Lançado Quirius]), MAX(kms_rpa_otif_kbi[data_processamento])), MAX(kms_rpa_axeler[data_processamento]))",
                 "RETURN",
                 "ADDCOLUMNS(",
                 "    CALENDAR(",
@@ -7404,7 +9305,7 @@
         ]
       },
       {
-        "name": "fkms_rpa_otif_kbi",
+        "name": "kms_rpa_otif_kbi",
         "annotations": [
           {
             "name": "PBI_NavigationStepName",
@@ -7531,7 +9432,7 @@
         "lineageTag": "36914237-47b8-4e66-b342-dc674385ce71",
         "partitions": [
           {
-            "name": "fkms_rpa_otif_kbi",
+            "name": "kms_rpa_otif_kbi",
             "mode": "import",
             "source": {
               "expression": [
@@ -7913,6 +9814,188 @@
                 "{",
                 "    (\"(HS) Economia-mla\", NAMEOF('_Medidas'[(HS) Economia-mla]), 0),",
                 "    (\"R$ Est. Economia-mla\", NAMEOF('_Medidas'[R$ Est. Economia-mla]), 1)",
+                "}"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "kms_rpa_axeler",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "data_processamento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "37fe12e8-aaa9-4549-9208-00651a5d3e13",
+            "sourceColumn": "data_processamento",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hora_processamento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "9866b34d-3ad3-4c49-b40a-857f2d760ff6",
+            "sourceColumn": "hora_processamento",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "qtde_horas_economizadas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "7139332b-bbc7-4ae1-af47-6d53879e5277",
+            "sourceColumn": "qtde_horas_economizadas",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "29977b6b-c2ae-469b-bb12-4da1a31c5027",
+        "partitions": [
+          {
+            "name": "kms_rpa_axeler",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Sql.Database(\"10.105.40.196\\powerbi\", \"idba_komatsu\", [Query=\"select * from DIM_RPA_AXELER\"]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Fonte,{{\"data_processamento\", type date}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Parametro-Comercial-Axeler",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "af78ce684e9c4c7aa3a538a650f413f9"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Parâmetro",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "17801561-28d8-4c89-b447-f6b624a0d49a",
+            "relatedColumnDetails": {
+              "groupByColumns": [
+                {
+                  "groupingColumn": "Parâmetro Campos"
+                }
+              ]
+            },
+            "sortByColumn": "Parâmetro Pedido",
+            "sourceColumn": "[Value1]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Parâmetro Campos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "kind": 2,
+                  "version": 3
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "229f61c8-0d0f-41d1-8d9b-5d08c91090ee",
+            "sortByColumn": "Parâmetro Pedido",
+            "sourceColumn": "[Value2]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Parâmetro Pedido",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "eb10eb25-e360-4d86-bb60-3a80abb9d2e5",
+            "sourceColumn": "[Value3]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "2224a3a9-d296-434a-ba36-0c829f75f984",
+        "partitions": [
+          {
+            "name": "Parametro-Comercial-Axeler",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "{",
+                "    (\"(HS) Economia-axeler\", NAMEOF('_Medidas'[(HS) Economia-axeler]), 0),",
+                "    (\"R$ Est. Economia-axeler\", NAMEOF('_Medidas'[R$ Est. Economia-axeler]), 1)",
                 "}"
               ],
               "type": "calculated"
