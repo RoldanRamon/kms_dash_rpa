@@ -12,7 +12,7 @@
       },
       {
         "name": "PBIDesktopVersion",
-        "value": "2.142.928.0 (25.04)+de52df9f0bb74ad93a80d89c52d63fe6d07e0e1b"
+        "value": "2.143.878.0 (25.05)+b20aa3b866ec1b70879135a4e60e4b1301c75b21"
       },
       {
         "name": "PBI_ProTooling",
@@ -8485,10 +8485,10 @@
             "name": "% Qtde Linhas-axeler",
             "displayFolder": "Robo Comercial - Axeler",
             "expression": [
-              "DIVIDE (\r",
-              "    [Qtde Linhas-axeler],\r",
-              "    CALCULATE ( [Qtde Linhas-axeler], REMOVEFILTERS ( 'kms_rpa_axeler' ) ),\r",
-              "    0\r",
+              "DIVIDE (",
+              "    [Qtde Linhas-axeler],",
+              "    CALCULATE ( [Qtde Linhas-axeler], REMOVEFILTERS ( 'kms_rpa_axeler' ) ),",
+              "    0",
               ")"
             ],
             "formatString": "0.00%;-0.00%;0.00%",
@@ -9145,8 +9145,9 @@
                 "    #\"Pasta de Trabalho Importada do Excel\" = Excel.Workbook(#\"\\\\forest local\\dfs\\Brazil\\Trabalho\\Fin\\Fiscal\\ARQUIVO FRETE RPA\\Bases\\_database_rpa_fretes xlsx\"),",
                 "    Sheet1_Sheet = #\"Pasta de Trabalho Importada do Excel\"{[Item=\"Sheet1\", Kind=\"Sheet\"]}[Data],",
                 "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Linhas Filtradas1\" = Table.SelectRows(#\"Cabeçalhos Promovidos\", each [Lançado Quirius] <> null and [Lançado Quirius] <> \"\"),",
                 "    #\"Tipo Alterado\" = Table.TransformColumnTypes(",
-                "        #\"Cabeçalhos Promovidos\",",
+                "        #\"Linhas Filtradas1\",",
                 "        {",
                 "            {\"Lançado Quirius\", type text},",
                 "            {\"Lançado Totvs\", type text},",
